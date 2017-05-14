@@ -51,13 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="244">
+              <caret line="243" column="57" lean-forward="true" selection-start-line="243" selection-start-column="57" selection-end-line="243" selection-end-column="57" />
               <folding>
-                <element signature="e#9834#9840#0" expanded="true" />
+                <element signature="e#9855#9861#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flexslider.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flexslider.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/flexslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="313">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -177,10 +177,10 @@
         <option value="$PROJECT_DIR$/account.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/single.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -338,12 +338,12 @@
       <updated>1494477035399</updated>
       <workItem from="1494477036626" duration="16270000" />
       <workItem from="1494532961687" duration="122000" />
-      <workItem from="1494646182037" duration="19370000" />
+      <workItem from="1494646182037" duration="19722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35762000" />
+    <option name="totallyTimeSpent" value="36114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1871" y="8" width="1307" height="735" extended-state="1" />
@@ -411,7 +411,7 @@
         <state relative-caret-position="560">
           <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
-            <element signature="e#9834#9840#0" expanded="true" />
+            <element signature="e#9855#9861#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,7 +503,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9834#9840#0" expanded="true" />
+            <element signature="e#9855#9861#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,16 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="72" />
-          <folding>
-            <element signature="e#9834#9840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -722,9 +712,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="313">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="243" column="57" lean-forward="true" selection-start-line="243" selection-start-column="57" selection-end-line="243" selection-end-column="57" />
+          <folding>
+            <element signature="e#9855#9861#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
