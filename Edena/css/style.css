@@ -9,6 +9,7 @@ body{
     font-family: 'Roboto-Regular';
     background-color:#fff;
 }
+
 @font-face {
     font-family: 'Roboto-Regular';
     src: url(../fonts/Roboto-Regular.ttf) format('truetype');
@@ -3395,7 +3396,7 @@ span.glyphicon.glyphicon-map-marker {
 /*.content-box.box-6  .post h3, h4{margin: 10px 0 15px 0;line-height: 1.2;}*/
 /*.content-box.box-6 .upload a{color: #2da9e1;font-weight: bold;}*/
 /*.content-box.box-6 .upload a:hover{color: #000;}*/
-#container {}
+#container {margin-top:50;}
 #container .wrap-container{background: #ffffff;}
 
 /* ---content-box--- */
