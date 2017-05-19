@@ -41,7 +41,7 @@ body a:hover{
 }
 /*--header--*/
 .mainheader {
-background-color: #1e2023;
+background-color: #FFFFFF;
 padding: 0;
 position: relative;
 }
@@ -59,7 +59,7 @@ h1.navbar-brand {
     padding: 0.5em 1em 0 0;
 }
 h1.navbar-brand a {
-    color: #fff;
+    color: #000000;
     padding: 0.2em 0;
 }
 nav.navbar.navbar-default {
@@ -68,25 +68,25 @@ nav.navbar.navbar-default {
 }
 /*--navigation--*/
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #000000;
     font-size: 1.1em;
     padding: 23px 25px;
     border-left: 1px solid #79654A;
     display: block;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background: #FFFFFF4;
+    background: #FFFFFF;
     color: #fff;
 }
 .nav > li > a.active{
-    background: #FFFFFF4;
+    background: #FFFFFF;
 }
 .row {
     margin: 0;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #FFF;
-    background-color: #FFFFFF4;
+    background-color: #FFFFFF;
 }
 b.caret {
     margin-left: 10px;
@@ -152,7 +152,7 @@ b.caret {
 .header-right span.glyphicon {
     font-size: 1.8em;
     padding: .83em 0;
-    color: #fff;
+    color: #000000;
 }
 /*--search--*/
 .search {
@@ -3515,17 +3515,17 @@ header #search input[type="submit"]{
 .banner1{
     background:url(../images/banner1.JPG) no-repeat 0px 0px;
     background-size:cover;
-    min-height:650px;
+    min-height:455px;
 }
 .banner2{
     background:url(../images/banner4.JPG) no-repeat 0px 0px;
     background-size:cover;
-    min-height:650px;
+    min-height:455px;
 }
 .banner3{
     background:url(../images/banner5.JPG) no-repeat 0px 0px;
     background-size:cover;
-    min-height:650px;
+    min-height:455px;
 }
 .slider {
     position: relative;
