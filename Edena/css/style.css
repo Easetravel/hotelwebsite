@@ -71,7 +71,7 @@ nav.navbar.navbar-default {
     color: #000000;
     font-size: 1.1em;
     padding: 23px 25px;
-    border-left: 1px solid #79654A;
+    border-left: 1px;
     display: block;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -85,7 +85,7 @@ nav.navbar.navbar-default {
     margin: 0;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #FFF;
+    color: #000000;
     background-color: #FFFFFF;
 }
 b.caret {
@@ -144,7 +144,7 @@ b.caret {
     float: left;
     width: 6%;
     text-align: center;
-    border-left:1px solid #79654A;
+    border-left:1px;
 }
 .header-right a{
     display:block;
@@ -594,7 +594,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     background:url(../images/slid.jpg)no-repeat 0px 0px fixed;
     background-size:cover;
     text-align:center;
-    padding:7em 0;
+    padding:12em 0;
 }
 .subscribe h4 {
     color: #fff;
@@ -640,7 +640,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
 /*--footer--*/
 .footer {
     padding: 5em 0;
-    background-color: #f2f6f7;
+    background-color: #FFFFFF;
 }
 .footer-grid h4 {
     font-size: 2em;
@@ -669,13 +669,13 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     margin-right: 10px;
 }
 .footer-bottom {
-    background-color: #333;
+    background-color: #FFFFFF;
     padding: 2em 0;
     text-align: center;
 }
 .footer-bottom p {
     font-size: 1em;
-    color: #fff;
+    color: #000000;
     line-height: 1.8em;
 }
 .footer-bottom p a {
