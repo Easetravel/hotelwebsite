@@ -642,6 +642,12 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     padding: 5em 0;
     background-color: #FFFFFF;
 }
+.footer-grid{
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto; 
+}
+
 .footer-grid h4 {
     font-size: 2em;
     text-transform: uppercase;
@@ -3630,11 +3636,12 @@ a.button:hover {
     margin-top: 20px;
 }
 .endline{
-    width: 100%;
+    width: 60%;
     height: 1px;
     display: inline-block;
     background-color: #2da9e1 ;
     margin-top: 60px;
+
 }
 a.more:hover{
     background:#00CCFF;
@@ -3768,6 +3775,11 @@ a.more:hover{
     color: #fff;
 }
 /**IDXpress**/
+.idxpress-map{
+    float: right;
+
+}
+
 .idxpress-section {
     padding: 5em 0;
     background:#eee;
@@ -3778,7 +3790,7 @@ a.more:hover{
 }
 .idxpress-top iframe {
     width: 100%;
-    height: 350px;
+    height: 700px;
     border: 2px solid#fff;
     padding: 15px;
     background: #fff;
