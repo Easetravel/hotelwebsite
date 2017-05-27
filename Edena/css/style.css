@@ -384,10 +384,11 @@ input:focus {
 /*--//header--*/
 /*--banner--*/
 .banner {
+
     position: relative;
-    background-color: #f2f6f7;
-    padding: 12em 0 0;
-    min-height: 600px;
+    width: 100%;
+    max-height: 455px;
+
 }
 .banner img {
     width: 100%;
@@ -419,7 +420,7 @@ input:focus {
     color:#333;
     font-weight: 800;
     padding: 0.5em 3em;
-    border: 7px solid #333;
+    border: 1px solid #333;
 }
 .banner a:hover {
     border-color: #2da9e1;
@@ -3565,6 +3566,7 @@ header #search input[type="submit"]{
     margin: 6em 0em 0 14em;
     background: rgba(255, 255, 255, 0.82);
     padding: .64em  2em;
+
 }
 .caption h3{
     font-size: 2em;
@@ -3777,7 +3779,12 @@ a.more:hover{
 /**IDXpress**/
 .idxpress-map{
     float: right;
+    width: 50%;
 
+}
+
+.wide-container {
+    width: 80%;
 }
 
 .idxpress-section {
@@ -3789,7 +3796,7 @@ a.more:hover{
     background: #fff;
 }
 .idxpress-top iframe {
-    width: 600px;
+    width: 100%;
     height: 800px;
     border: 1px solid#fff;
     padding: 5px;
