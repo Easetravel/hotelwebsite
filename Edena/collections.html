@@ -30,6 +30,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</script>
 
 <!-- pop-up -->
+<!-- leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+   integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+   crossorigin=""/>
+ <link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
+
 
 </head>
 <body>
@@ -391,11 +397,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!--</div>	-->
 						</div>
 
-						<div class="col-md-4 idxpress-map">
+<!-- 						<div class="col-md-4 idxpress-map">
 							<div class="idxpress-top">
 								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205251.8961757029!2d-82.55659211602483!3d36.50439253757311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885a856b70074b97%3A0x6f9cc0d30bcc841f!2sKingsport%2C+TN%2C+USA!5e0!3m2!1sen!2sin!4v1433743549812" allowfullscreen></iframe>
 							</div>
-						</div>
+						</div> -->
+						<!-- mapbox -->
+						<!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
+						<!-- leaflet -->
+						<div id="hotelmap" style=""></div>
 						<div class="clearfix"></div>
 					</div>
 				</div>
@@ -502,5 +512,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<!-- //Register -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
+   integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
+   crossorigin=""></script>
+<script src='js/map.js'></script>
 </body>
+
 </html>
