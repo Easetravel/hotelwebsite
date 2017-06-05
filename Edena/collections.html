@@ -16,19 +16,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 <!---js--->
 <!---fonts-->
-<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.useso.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.useso.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+<!--<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='http://fonts.useso.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='http://fonts.useso.com/css?family=Righteous' rel='stylesheet' type='text/css'>-->
 <!---fonts-->
 <!-- pop-up -->
-<link rel="stylesheet" href="css/swipebox.css">
-			<script src="js/jquery.swipebox.min.js"></script> 
-			    <script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-				</script>
+<!--<link rel="stylesheet" href="css/swipebox.css">-->
+			<!--<script src="js/jquery.swipebox.min.js"></script> -->
+			    <!--<script type="text/javascript">-->
+					<!--jQuery(function($) {-->
+						<!--$(".swipebox").swipebox();-->
+					<!--});-->
+				<!--</script>-->
 
+
+	<!---strat-date-piker---->
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<script src="js/jquery-ui.js"></script>
+	<script>
+        $(function() {
+            $( "#datepicker,#datepicker1" ).datepicker();
+        });
+	</script>
+	<!---/End-date-piker---->
 <!-- pop-up -->
 <!-- leaflet -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
@@ -149,11 +159,78 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//header-->
 
 
-		<div class="banner-section">
-			<div class="container">
-				<h2>Edena Urban</h2>
+		<!--<div class="banner-section">-->
+			<!--<div class="container">-->
+				<!--<h2>Edena Urban</h2>-->
+			<!--</div>-->
+		<!--</div>-->
+<!--start main -->
+<div class="main_bg">
+	<div class="container">
+		<div class="online_reservation">
+			<div class="b_room">
+				<!--<div class="booking_room">-->
+					<!--<h4>book a room online</h4>-->
+					<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
+				<!--</div>-->
+				<div class="reservation">
+					<ul>
+						<li class="span1_of_1">
+							<h5>type of room:</h5>
+							<!----------start section_room----------->
+							<div class="section_room">
+								<select id="country" onchange="change_country(this.value)" class="frm-field required">
+									<option value="null">Select a type of room</option>
+									<option value="null">Edena Urban</option>
+									<option value="AX">Edena Park</option>
+									<option value="AX">Edena Collection</option>
+								</select>
+							</div>
+						</li>
+						<li  class="span1_of_1 left">
+							<h5>check-in-date:</h5>
+							<div class="book_date">
+								<form>
+									<input class="date" id="datepicker" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}">
+								</form>
+
+							</div>
+						</li>
+						<li  class="span1_of_1 left">
+							<h5>check-out-date:</h5>
+							<div class="book_date">
+								<form>
+									<input class="date" id="datepicker1" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}">
+								</form>
+							</div>
+						</li>
+						<li class="span1_of_2 left">
+							<h5>Guests:</h5>
+							<!----------start section_room----------->
+							<div class="section_room">
+								<select id="country" onchange="change_country(this.value)" class="frm-field required">
+									<option value="null">1</option>
+									<option value="null">2</option>
+									<option value="AX">3</option>
+									<option value="AX">4</option>
+								</select>
+							</div>
+						</li>
+						<li class="span1_of_3">
+							<div class="date_btn">
+								<form>
+									<input type="submit" value="book now" />
+								</form>
+							</div>
+						</li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
+	</div>
+</div>
 
 		<div class="content">
 			<div class="idxpress-section">

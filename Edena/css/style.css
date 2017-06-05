@@ -4114,3 +4114,135 @@ a.button2 {
     height: 600px;
     width: auto; 
 }
+
+.page-header-info-head h1{
+    color:#fff;
+    font-size:4em;
+    text-transform:uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+}
+.page-header{
+    background:#444444;
+    margin:0;
+    padding: 1em 0;
+}
+ul.p-nav {
+    margin: 10px auto 0;
+    width: 55%;
+}
+.online_reservation{
+    margin: 18px 0 25px 0;
+    z-index: 999;
+}
+.b_room{
+    margin: 2% 0%;
+    display: inline-flex;
+    box-shadow: 0px 0px 4px rgb(97, 97, 97);
+    -webkit-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+    -moz-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+    -o-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+}
+.booking_room{
+    padding: 3% 10px;
+    float: left;
+    width: 30%;
+    background: #E4E4E4;
+}
+.booking_room h4{
+    font-size: 1.5em;
+    color: #202020;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.booking_room p{
+    font-size: 1em;
+    color: #6b6b6b;
+    line-height: 1.6em;
+}
+.reservation{
+    padding: 3.5% 0 2% 0;
+    float: left;
+    background: #FFFFFF;
+}
+.reservation ul li{
+    float: left;
+}
+.reservation ul li.left{
+    margin-left: 15px;
+}
+.reservation ul li.span1_of_1{
+    width: 21.33333%;
+}
+.reservation ul li.span1_of_2{
+    width: 9.33333%;
+}
+.reservation ul li.span1_of_3{
+    width: 14.33333%;
+    margin-left: 26px;
+}
+.reservation h5{
+    font-size: 1em;
+    color: #5F5F5F;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+select {
+    width: 100%;
+    color: #858585;
+    font-size: 1em;
+    padding: 7px;
+    outline: none;
+    margin: 5px 0;
+    background: #ffffff;
+    border: 1px solid #DFDFDF;
+    box-shadow: inset 0 0 2px rgb(236, 236, 236);
+    -webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+    -moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+    -o-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+}
+select option{
+    border: 1px solid #DFDFDF;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.book_date input[type="text"]{
+    width: 88%;
+    color: #858585;
+    font-size: 1em;
+    padding: 8px 8px 8px 33px;
+    outline: none;
+    margin: 5px 0;
+    border: 1px solid #DFDFDF;
+    box-shadow: inset 0 0 2px rgb(236, 236, 236);
+    -webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+    -moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+    -o-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+    -webkit-appearance: none;
+}
+
+.date_btn{
+    margin-top: 27px;
+}
+.date_btn form input[type="submit"] {
+    text-transform:capitalize;
+    width: 100% !important;
+    background: #444444;
+    color: #FFF;
+    padding: 8px;
+    border: none;
+    font-size: 1em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    outline: none;
+    cursor: pointer;
+}
+.date_btn form input[type="submit"]:hover{
+    background: #ff7b3d;
+}
