@@ -4284,7 +4284,7 @@ select option{
 
 /**about**/
 .about-section {
-    padding: 7em 0;
+    padding: 8em 0;
 }
 .about-section h3 {
     font-size: 1.5em;
@@ -4396,3 +4396,10 @@ select option{
     color: #faa43d;
 }
 /**about**/
+
+/**contact us**/
+.contact h2{
+    font-size: 2em;
+    margin-top: 1.5em;
+    color:#000000;
+}
