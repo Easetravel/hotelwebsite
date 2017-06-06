@@ -41,9 +41,11 @@ body a:hover{
 }
 /*--header--*/
 .mainheader {
-background-color: #FFFFFF;
-padding: 0;
-position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 0;
+    position: fixed;
+    z-index: 10;
 }
 nav.navbar.navbar-default {
     background: none;
@@ -3787,7 +3789,8 @@ a.more:hover{
 }
 
 .wide-container {
-    width: 80%;
+    width: 100%;
+    padding: 0;
 }
 
 .idxpress-section {
@@ -4109,11 +4112,6 @@ a.button2 {
 }
 /**properties**/
 
-/**Leaflet Map**/
-#hotelmap { 
-    height: 600px;
-    width: auto; 
-}
 
 .page-header-info-head h1{
     color:#fff;
@@ -4132,8 +4130,20 @@ ul.p-nav {
     width: 55%;
 }
 .online_reservation{
-    margin: 18px 0 25px 0;
-    z-index: 999;
+    margin: 5px 0 5px 0;
+    z-index: 10;
+    position: fixed;
+    width: 67.3%;
+    background: #FFFFFF;
+    min-width: 675px;
+
+}
+
+.reservation{
+    padding: 2% 0 0 0;
+    margin-left: 0;
+    float:left;
+    
 }
 .b_room{
     margin: 2% 0%;
@@ -4160,11 +4170,6 @@ ul.p-nav {
     font-size: 1em;
     color: #6b6b6b;
     line-height: 1.6em;
-}
-.reservation{
-    padding: 3.5% 0 2% 0;
-    float: left;
-    background: #FFFFFF;
 }
 .reservation ul li{
     float: left;
@@ -4245,4 +4250,34 @@ select option{
 }
 .date_btn form input[type="submit"]:hover{
     background: #ff7b3d;
+}
+
+/**Leaflet Map**/
+#hotelmap {
+    margin-top: 15px;
+    height: 94%;
+    width: 850px; 
+    position: fixed;
+
+    
+}
+.leaflet-popup-content-wrapper,.leaflet-popup-content
+{
+ border-radius:0 !important;
+ padding: 0 !important;
+ margin: 0 !important;
+}
+
+.leaflet-popup-content img{
+    width: 301px;
+    height: 301px;
+}
+
+.leaflet-popup-content p{
+    text-align: center;
+
+}
+
+.hotel-list{
+    margin-top: 5%;
 }

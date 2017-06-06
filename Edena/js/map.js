@@ -8,14 +8,32 @@ var mymap = L.map('hotelmap').setView([42.308, -71.137], 12);
 		id: 'mapbox.streets'
 	}).addTo(mymap);
 
-	L.marker([42.308, -71.137]).addTo(mymap)
-		.bindPopup("499").openPopup();
 
-	L.marker([42.3546624, -71.060]).addTo(mymap)
-		.bindPopup("599").openPopup();
+var popup1 = L.popup({closeButton: false})
+    .setLatLng([0, 0])
+    .setContent("<img src='images/3.jpg'> <p>room1</p>")
+    .openOn(mymap);
 
-	L.marker([42.363, -71.0599]).addTo(mymap)
-		.bindPopup("1099").openPopup();
+var popup2 = L.popup({closeButton: false})
+    .setLatLng([0, 0])
+    .setContent("<img src='images/1.jpg'> <p>room1</p>")
+    .openOn(mymap);
+
+var popup3 = L.popup({closeButton: false})
+    .setLatLng([0, 0])
+    .setContent("<img src='images/12.jpg'> <p>room1</p>")
+    .openOn(mymap);
+
+
+
+    L.marker([42.363, -71.0599]).addTo(mymap)
+		.bindPopup(popup1).openPopup();
+
+    L.marker([42.308, -71.137]).addTo(mymap)
+		.bindPopup(popup2).openPopup();
+
+    L.marker([42.3546624, -71.060]).addTo(mymap)
+		.bindPopup(popup2).openPopup();
 
 	// L.circle([42.308, -71.137], 500, {
 	// 	color: 'red',
