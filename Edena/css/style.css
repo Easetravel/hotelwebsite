@@ -646,9 +646,9 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     background-color: #FFFFFF;
 }
 .footer-grid{
-    display: block;  
-    margin-left: auto;  
-    margin-right: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-grid h4 {
@@ -4143,7 +4143,7 @@ ul.p-nav {
     padding: 2% 0 0 0;
     margin-left: 0;
     float:left;
-    
+
 }
 .b_room{
     margin: 2% 0%;
@@ -4256,10 +4256,10 @@ select option{
 #hotelmap {
     margin-top: 15px;
     height: 94%;
-    width: 850px; 
+    width: 850px;
     position: fixed;
 
-    
+
 }
 .leaflet-popup-content-wrapper,.leaflet-popup-content
 {
@@ -4281,3 +4281,118 @@ select option{
 .hotel-list{
     margin-top: 5%;
 }
+
+/**about**/
+.about-section {
+    padding: 7em 0;
+}
+.about-section h3 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-family: 'Righteous', cursive;
+    color: #2da9e1;
+    margin-bottom: 1em
+}
+.about-left {
+    float: left;
+    width: 48%;
+    margin-right:2%;
+    border: 1px solid#DACFCF;
+    padding: .5em;
+    box-shadow: 0 0 5px #c3c3c3;
+}
+.about-right {
+    float: left;
+    width: 50%;
+}
+.about-right h5,.about-right1 h5{
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
+    color: #000;
+}
+.about-right p {
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #777;
+    padding-top: .8em;
+}
+.about-left1 {
+    float: left;
+    width: 14%;
+    margin-right: 2%;
+}
+.about-right1 {
+    float: left;
+    width: 84%;
+}
+.about-left1 p {
+    background: #2da9e1;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    margin: 0;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 0.45em;
+}
+.about-right1 p {
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #777;
+}
+.about3 {
+    padding: 1em 0;
+}
+.about-bottom {
+    padding-top: 5em;
+}
+.aboutbottom-left {
+    float: left;
+    width: 9%;
+    margin-right: 2%;
+}
+.aboutbottom-left p {
+    /*background: #fff;*/
+    /*color: #2da9e1;*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    font-size: 1.5em;
+    /*margin: 0;*/
+    /*text-align: center;*/
+    /*padding-top: 0.6em;*/
+    /*box-shadow: 0 0 5px #c3c3c3;*/
+}
+.aboutbottom-right {
+    float: left;
+    width: 89%;
+}
+.aboutbottom-right h5 {
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
+    color: #000;
+}
+.about5 {
+    padding: 1.5em 0;
+}
+.aboutbottom-right p,.about-bottom2 p{
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #777;
+    padding-top: .5em;
+}
+.about-bottom2 h5 {
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
+    color: #000;
+}
+.about-bottom2 a {
+    display: block;
+    margin-top: 2em;
+    color: #2da9e1;
+    line-height: 1.8em;
+}
+.about-bottom2 a:hover{
+    color: #faa43d;
+}
+/**about**/
