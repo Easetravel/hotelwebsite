@@ -8,6 +8,7 @@ body{
     margin:0;
     font-family: 'Roboto-Regular';
     background-color:#fff;
+    min-width: 800px;
 }
 
 @font-face {
@@ -41,11 +42,16 @@ body a:hover{
 }
 /*--header--*/
 .mainheader {
+    float: top;
+    margin: 0;
     width: 100%;
+    height: 7%;
+    min-height: 60px;
     background-color: #FFFFFF;
     padding: 0;
-    position: fixed;
-    z-index: 10;
+    position: absolute;
+    z-index: 11;
+    box-shadow:0px 0px 3px grey
 }
 nav.navbar.navbar-default {
     background: none;
@@ -3538,6 +3544,8 @@ header #search input[type="submit"]{
 }
 .slider {
     position: relative;
+    /*margin-top: 60px;*/
+
 }
 
 .rslides {
@@ -3788,9 +3796,11 @@ a.more:hover{
 
 }
 
-.wide-container {
-    width: 100%;
-    padding: 0;
+.left-container {
+    width: 60%;
+    padding-left: 0;
+    padding-top: 1%;
+    float:left;
 }
 
 .idxpress-section {
@@ -4129,20 +4139,19 @@ ul.p-nav {
     margin: 10px auto 0;
     width: 55%;
 }
-.online_reservation{
-    margin: 5px 0 5px 0;
-    z-index: 10;
-    position: fixed;
-    width: 67.3%;
-    background: #FFFFFF;
-    min-width: 675px;
 
-}
 
 .reservation{
-    padding: 2% 0 0 0;
+    margin-top: 45px;
+    padding: 1% 0 0 0;
     margin-left: 0;
     float:left;
+    z-index: 9;
+    width: 60.5%;
+    height: 50px;
+    background: #FFFFFF;
+    min-width: 600px;
+}
 
 }
 .b_room{
@@ -4254,12 +4263,13 @@ select option{
 
 /**Leaflet Map**/
 #hotelmap {
-    margin-top: 15px;
-    height: 94%;
-    width: 850px;
+    margin-top: 70px;
+    height:100%;
+    width: 40%;
+    min-width: 600px;
     position: fixed;
-
-
+    float: right;
+    display: inline;
 }
 .leaflet-popup-content-wrapper,.leaflet-popup-content
 {
@@ -4403,3 +4413,9 @@ select option{
     margin-top: 1.5em;
     color:#000000;
 }
+
+.left-grids{
+    margin-top: 50px;
+
+}
+
