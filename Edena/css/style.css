@@ -4286,6 +4286,7 @@ select option{
     height:100%;
     width: 40%;
     min-width: 600px;
+    min-width: 600px;
     position: fixed;
     float: right;
     display: inline;
@@ -4309,6 +4310,7 @@ select option{
 
 .hotel-list{
     margin-top: 5%;
+    margin-left: 1.82%;
 }
 
 /**about**/
@@ -4442,6 +4444,7 @@ select option{
   margin: 0;
   overflow: hidden; 
   padding: 0;
+
 }
 .tag {
   background: #eee;
