@@ -3811,6 +3811,7 @@ a.more:hover{
     text-align: center;
     background: #fff;
 }
+
 .idxpress-top iframe {
     width: 100%;
     height: 800px;
@@ -3875,6 +3876,7 @@ ul.bottom-right {
 }
 .idxpres-grids {
     margin-top: 3em;
+
 }
 /**IDXpress**/
 /**properties**/
@@ -4458,4 +4460,8 @@ select option{
   margin: 0 10px 10px 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
+}
+
+.col-md-5{
+    width: 45%;
 }
