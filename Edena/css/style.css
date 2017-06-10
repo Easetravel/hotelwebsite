@@ -3881,7 +3881,7 @@ ul.bottom-right {
 /**IDXpress**/
 /**properties**/
 .properties-section {
-    padding: 5em 0;
+    padding: 4em 0;
 }
 .properties-details {
     margin: 2em 0;
@@ -3905,6 +3905,10 @@ ul.bottom-right {
     text-transform: uppercase;
     text-decoration: none;
     color: #555;
+}
+.properties-left{
+    float: left;
+
 }
 .properties-left p {
     font-size: 1em;
@@ -3978,8 +3982,8 @@ ul.bottom-right {
     text-transform: capitalize;
 }
 .properties-right {
-    text-align: center;
-    background:#eee;
+    background:#FFFFFF;
+    float: right;
 }
 .properties-top h4,.properties-middle h4,.feature h4{
     font-size: 1.5em;
@@ -4163,13 +4167,11 @@ ul.p-nav {
 
 
 .reservation{
-    margin-top: 45px;
     padding: 1% 0 0 0;
-    margin-left: 0;
-    float:left;
-    z-index: 9;
+    margin: 1 auto;
+
     width: 60.5%;
-    height: 50px;
+    height: 100px;
     background: #FFFFFF;
     min-width: 600px;
 }
@@ -4290,6 +4292,17 @@ select option{
     min-width: 600px;
     min-width: 600px;
     position: fixed;
+    float: right;
+    display: inline;
+}
+
+#fluidhotelmap {
+    margin-top: 10px;
+    height:800px;
+    width: 800px;
+    min-width: 600px;
+    min-width: 600px;
+    position: relative;
     float: right;
     display: inline;
 }
@@ -4467,10 +4480,12 @@ select option{
 }
  /*sigle-room page */
 .room-container {
+    margin-top: 45px;
     width: 100%;
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
+    float: left;
 }
 .col-md-9{
     width: 50%;
@@ -4484,4 +4499,12 @@ select option{
     margin-bottom: 15px;
 }
 
+.center-header h2{
+    font-size: 4em;
+    margin-top: 30px;
+    width: 15;
+    text-align: center;
+
+
+}
 
