@@ -3847,8 +3847,16 @@ a.more:hover{
     font-size: 1.2em;
     padding: .5em 0 .5em .5em;
     font-family: 'Righteous', cursive;
-    color: #fff;
-    background: #34ABE2;
+    color: black;
+
+}
+
+.idxpres-down h6 {
+    font-size: 1.8em;
+    padding: .5em 0 .5em .5em;
+    font-family: 'Righteous', cursive;
+    color: #2da9e1;
+
 }
 .idxpres-right h5 {
     font-size: 1.2em;
