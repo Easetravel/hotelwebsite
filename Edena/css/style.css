@@ -3778,16 +3778,21 @@ a.more:hover{
 .banner-section {
     background: url(../images/s1.jpg) no-repeat 0px 0px;
     background-size: cover;
-    min-height: 350px;
+    min-height: 450px;
     text-align: center;
     padding: 5em 0 0;
 }
 .banner-section h2{
-    font-size: 3em;
+    font-size: 5em;
     text-transform: capitalize;
     text-align: center;
     font-family: 'Righteous', cursive;
     color: #fff;
+    margin-top: 2em;
+}
+.container h7{
+    font-size: 2em;
+    color:000;
 }
 /**IDXpress**/
 .idxpress-map{
