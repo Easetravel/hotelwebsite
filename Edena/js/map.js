@@ -11,17 +11,17 @@ var mymap = L.map('hotelmap').setView([42.308, -71.137], 12);
 
 var popup1 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/3.jpg'> <p>room1</p>")
+    .setContent("<img src='images/3.jpg'> <p>599/Night</p>")
     .openOn(mymap);
 
 var popup2 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/1.jpg'> <p>room1</p>")
+    .setContent("<img src='images/1.jpg'> <p>699/Night</p>")
     .openOn(mymap);
 
 var popup3 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/12.jpg'> <p>room1</p>")
+    .setContent("<img src='images/12.jpg'> <p>799/Night</p>")
     .openOn(mymap);
 
 
