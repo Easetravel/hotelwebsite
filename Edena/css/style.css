@@ -79,11 +79,11 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-nav > li > a {
     margin-top: 0.3em;
     color: #000000;
-    font-size: 1.5em;
+    font-size: 16px;
     padding: 23px 25px;
     border-left: 1px;
     display: block;
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab-Regular";
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background: #0094dd;
@@ -136,6 +136,7 @@ b.caret {
 .multi-column-dropdown li a:hover {
     color: #2da9e1;
 }
+
 @media (max-width: 767px) {
     .dropdown-menu.multi-column {
         min-width: 240px !important;
@@ -4129,7 +4130,7 @@ ul.p-nav {
     padding: 1% 0 0 0;
     margin: 1 auto;
     display: inline-block;
-    width: 60.5%;
+    width: 90%;
     height: 100px;
     background: #FFFFFF;
     min-width: 620px;
@@ -4167,7 +4168,7 @@ ul.p-nav {
     float: left;
 }
 .reservation ul li.left{
-    margin-left: 15px;
+    margin-left: 1.82%;
 }
 .reservation ul li.span1_of_1{
     width: 21.33333%;
@@ -4177,7 +4178,7 @@ ul.p-nav {
 }
 .reservation ul li.span1_of_3{
     width: 14.33333%;
-    margin-left: 26px;
+    margin-left: 16px;
 }
 .reservation h5{
     font-size: 1em;
@@ -4247,9 +4248,9 @@ select option{
 
 /**Leaflet Map**/
 #hotelmap {
-    margin-top: -5%;
+    margin-top: 0%;
     height:100%;
-    width: 40%;
+    width: 33.5%;
     min-width: 600px;
     min-width: 600px;
     position: fixed;
@@ -4413,6 +4414,7 @@ select option{
 
 .left-grids{
     margin-top: 50px;
+    margin-left: 35px;
 
 }
 .tags {
@@ -4437,7 +4439,7 @@ select option{
 }
 
 .col-md-5{
-    width: 45%;
+    width: 35.86%;
 }
  /*sigle-room page */
 .room-container {
@@ -4502,3 +4504,64 @@ select option{
     width: 80%;
     display: inline-block;
 }
+
+/**Collections Page**/
+.section_room{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.section_room select{
+    background-color: #2da9e1;
+    color: #fff;
+    font-size: inherit;
+    padding: .5em;
+    padding-right: 2.5em;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: button;
+}
+.section_room::before,
+.section_room::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+
+.section_room::after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+}
+
+.section_room::before { /*  Custom dropdown arrow cover */
+    width: 2em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.section_room select[disabled] {
+    color: rgba(0,0,0,.3);
+}
+
+.section_room select[disabled]::after {
+    color: rgba(0,0,0,.1);
+}
+
+.section_room::before {
+    background-color: rgba(0,0,0,.15);
+}
+
+.section_room::after {
+    color: rgba(0,0,0,.4);
+}
+

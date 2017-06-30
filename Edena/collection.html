@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Home</title>
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="" />
-<!-- //Custom Theme files -->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-<link rel="stylesheet" href="css/zerogrid.css">	
-<link href="css/owl.carousel.css" rel="stylesheet">	
-</head>
 
-<body>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"  >
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Collection Page</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta content="" name="description"/>
+	<meta content="" name="author"/>
+	<!-- BEGIN GLOBAL MANDATORY STYLES -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+
+
+	<!-- BEGIN: BASE PLUGINS  -->
+	<link href="css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+	<link href="css/slider.css" rel="stylesheet" type="text/css"/>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/zerogrid.css">
+	<!-- END: BASE PLUGINS -->
+
+
+	<!-- BEGIN THEME STYLES -->
+	<link href="css/plugins.css" rel="stylesheet" type="text/css"/>
+	<link href="css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+	<!--<link href="css/custom.css" rel="stylesheet" type="text/css"/>-->
+	<!-- END THEME STYLES -->
+
+	<!--<link rel="shortcut icon" href="favicon.ico"/>-->
+</head><body class="c-layout-header-fixed c-layout-header-mobile-fixed">
+
+<!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
+<!-- BEGIN: HEADER -->
 <!--header-->
 <div class="mainheader">
 	<div class="container">
 		<nav class="navbar navbar-default" role="navigation">
+
 			<div class="navbar-mainheader">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
@@ -25,7 +50,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<h1 class="navbar-brand"><a  href="index.html">Edena Resorts</a></h1>
+				<h1 class="navbar-brand"><a  href="index.html"><img class="headlogo" src="images/logo_small.png"></a></h1>
 			</div>
 			<!--navbar-header-->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -40,7 +65,7 @@
 									<iframe src="http://app.littlehotelier.com/properties/edenaluxuryapartmentsdirect/widget?number_of_days=12" height="170" width="800" frameborder="1" scrolling="no" allowtransparency="true">
 									</iframe>
 
-								</div></center>
+								</div>
 								<div id="top-destination">
 
 									<ul class="multi-column-dropdown">
@@ -71,7 +96,7 @@
 						</ul>
 					</li>
 					<li class="dropdown grid">
-						<a href="#" > About Us </a>
+						<a href="aboutus.html" > About Us </a>
 
 					</li>
 					<li class="dropdown grid">
@@ -120,221 +145,231 @@
 		</div>
 		<div class="clearfix"> </div>
 	</div>
+</div><!-- END: CONTENT/USER/SIGNUP-FORM -->
+
+
+
+<!-- BEGIN: PAGE CONTAINER -->
+<div class="c-layout-page">
+	<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->
+
+	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">
+		<div class="container">
+			<div class="reservation">
+				<ul>
+					<li class="span1_of_1">
+						<!--<h5>type of room:</h5>-->
+						<!--start section_room-->
+						<div class="section_room">
+							<select id="country" onchange="change_country(this.value)" class="frm-field required">
+								<option value="null">Select a type of room</option>
+								<option value="null">Edena Urban</option>
+								<option value="AX">Edena Park</option>
+								<option value="AX">Edena Collection</option>
+							</select>
+						</div>
+					</li>
+					<li  class="span1_of_1 left">
+						<!--<h5>check-in-date:</h5>-->
+						<div class="book_date">
+							<form>
+								<input class="date" id="datepicker" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}">
+							</form>
+
+						</div>
+					</li>
+					<li  class="span1_of_1 left">
+						<!--<h5>check-out-date:</h5>-->
+						<div class="book_date">
+							<form>
+								<input class="date" id="datepicker1" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}">
+							</form>
+						</div>
+					</li>
+					<li class="span1_of_2 left">
+						<!--<h5>Guests:</h5>-->
+						<!--start section_room-->
+						<div class="section_room">
+							<select id="country" onchange="change_country(this.value)" class="frm-field required">
+								<option value="null">1</option>
+								<option value="null">2</option>
+								<option value="AX">3</option>
+								<option value="AX">4</option>
+							</select>
+						</div>
+					</li>
+					<li class="span1_of_3">
+						<div class="date_btn">
+							<form>
+								<input type="submit" value="book now" />
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->
+	<!-- BEGIN: PAGE CONTENT -->
+	<div class="c-content-box c-size-md">
+		<div class="container">
+			<div class="cbp-panel">
+
+
+				<div id="grid-container" class="cbp cbp-l-grid-work">
+					<div class="cbp-item identity">
+						<a href="individual.html" class="cbp-caption cbp-singlePage">
+							<div class="cbp-caption-defaultWrap">
+								<img src="images/1.jpg" alt="">
+							</div>
+							<div class="cbp-caption-activeWrap">
+								<div class="c-masonry-border"></div>
+							</div>
+						</a>
+						<a href="individual.html" class="cbp-l-grid-work-title cbp-singlePage">Dashboard</a>
+						<div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
+					</div>
+					<div class="cbp-item web-design logos">
+						<a href="individual.html" class="cbp-caption cbp-singlePage">
+							<div class="cbp-caption-defaultWrap">
+								<img src="images/1.jpg" alt="">
+							</div>
+							<div class="cbp-caption-activeWrap">
+								<div class="c-masonry-border"></div>
+							</div>
+						</a>
+						<a href="individual.html" class="cbp-l-grid-work-title cbp-singlePage">World Clock Widget</a>
+						<div class="cbp-l-grid-work-desc">Logo / Web Design</div>
+					</div>
+					<div class="cbp-item graphic logos">
+						<a href="individual.html" class="cbp-caption cbp-singlePage">
+							<div class="cbp-caption-defaultWrap">
+								<img src="images/2.jpg" alt="">
+							</div>
+							<div class="cbp-caption-activeWrap">
+								<div class="c-masonry-border"></div>
+							</div>
+						</a>
+						<a href="individual.html" class="cbp-l-grid-work-title cbp-singlePage">To-Do Dashboard</a>
+						<div class="cbp-l-grid-work-desc">Graphic / Logo</div>
+					</div>
+					<div class="cbp-item web-design graphic">
+						<a href="individual.html" class="cbp-caption cbp-singlePage">
+							<div class="cbp-caption-defaultWrap">
+								<img src="images/1.jpg" alt="">
+							</div>
+							<div class="cbp-caption-activeWrap">
+								<div class="c-masonry-border"></div>
+							</div>
+						</a>
+						<a href="individual.html" class="cbp-l-grid-work-title cbp-singlePage">Events and More</a>
+						<div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
+					</div>
+					<div class="cbp-item identity web-design">
+						<a href="individual.html" class="cbp-caption cbp-singlePage">
+							<div class="cbp-caption-defaultWrap">
+								<img src="images/1.jpg" alt="">
+							</div>
+							<div class="cbp-caption-activeWrap">
+								<div class="c-masonry-border"></div>
+							</div>
+						</a>
+						<a href="individual.html" class="cbp-l-grid-work-title cbp-singlePage">Where To App</a>
+						<div class="cbp-l-grid-work-desc">Web Design / Identity</div>
+					</div>
+					<div class="cbp-item identity web-design">
+						<a href="ajax/projects/project6.html" class="cbp-caption cbp-singlePage">
+							<div class="cbp-caption-defaultWrap">
+								<img src="images/1.jpg" alt="">
+							</div>
+							<div class="cbp-caption-activeWrap">
+								<div class="c-masonry-border"></div>
+							</div>
+						</a>
+						<a href="individual.html" class="cbp-l-grid-work-title cbp-singlePage">Ski * Buddy</a>
+						<div class="cbp-l-grid-work-desc">Identity / Web Design</div>
+					</div>
+				</div>
+
+				<div id="loadMore-container" class="cbp-l-loadMore-button c-margin-t-60">
+					<a href="ajax/2col-portfolio/load-more.html" class="cbp-l-loadMore-link btn c-btn-square c-btn-border-2x c-btn-dark c-btn-bold c-btn-uppercase">
+						<span class="cbp-l-loadMore-defaultText">LOAD MORE</span>
+						<span class="cbp-l-loadMore-loadingText">LOADING...</span>
+						<span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- END: PAGE CONTENT -->
 </div>
-<!--//header-->
-	<!--banner-->
-	<!--<div class="banner">-->
-		<!--<div class="container">-->
-			<!--<h2 class="hdng">Edena <span>Resorts</span></h2>-->
-			<!--<p>Travel Companion</p>-->
-			<!--<a href="products.html">BOOK NOW</a>-->
-			<!--<div class="banner-text">-->
-				<!--<bg src="images/2.jpg" alt=""/>-->
-			<!--</div>-->
-		<!--</div>-->
-	<!--</div>-->
+<!-- END: PAGE CONTAINER -->
 
-	<!---banner--->
-
-	<div class="slider">
-		<div class="callbacks_container">
-			<ul class="rslides" id="slider">
-				<div class="slid banner1">
-					<div class="caption">
-						<h1>EDENA PARK</h1>
-						<p>simple description </p>
-						<a href="products.html" class="button">know more</a>
-					</div>
-				</div>
-				<div class="slid banner2">
-					<div class="caption">
-						<h1>EDENA URBAN</h1>
-						<p>simple description .</p>
-						<a href="products.html" class="button">know more</a>
-					</div>
-				</div>
-				<div class="slid banner3">
-					<div class="caption">
-						<h1>EDENA RESORTS</h1>
-						<p>simple description .</p>
-						<a href="products.html" class="button">know more</a>
-					</div>
-				</div>
+<!-- BEGIN: LAYOUT/FOOTERS/FOOTER-5 -->
+<center><div class="endline"></div></center>
+<section id="follow-us">
+	<div class="container">
+		<div class="text-center height-contact-element">
+			<ul class="list-unstyled list-inline list-social-icons">
+				<li> <a href="terms.html">Privacy Policy</a></li>
+				<li> <a href="#">Terms of Use</a></li>
+				<li> <a href="#">Careers</a></li>
+				<li> <a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="text-center height-contact-element">
+			<ul class="list-unstyled list-inline list-social-icons">
+				<li class="active"><img class="img-responsive displayed" src="images/i1.png"></a></li>
+				<li class="active"><img class="img-responsive displayed" src="images/i2.png"></a></li>
+				<li class="active"><img class="img-responsive displayed" src="images/i3.png"></a></li>
+				<li class="active"><img class="img-responsive displayed" src="images/i4.png"></a></li>
 			</ul>
 		</div>
 	</div>
-	<!---banner--->
+</section>
 
-	<!--//subscribe-->
-	<!--&lt;!&ndash;footer&ndash;&gt;-->
-	<!--<div class="footer">-->
-		<!--<div class="container">-->
-			<!--<div class="footer-grids">-->
-				<!--<div class="col-md-2 footer-grid">-->
-					<!--<h4>company</h4>-->
-					<!--<ul>-->
-						<!--<li><a href="products.html">products</a></li>-->
-						<!--<li><a href="#">Team</a></li>-->
-						<!--<li><a href="#">Locator</a></li>-->
-					<!--</ul>-->
-				<!--</div>-->
-				<!--<div class="col-md-2 footer-grid">-->
-					<!--<h4>service</h4>-->
-					<!--<ul>-->
-						<!--<li><a href="#">Support</a></li>-->
-						<!--<li><a href="#">FAQ</a></li>-->
-						<!--<li><a href="#">Warranty</a></li>-->
-						<!--<li><a href="contact.html">Contact Us</a></li>-->
-					<!--</ul>-->
-				<!--</div>-->
-				<!--<div class="col-md-3 footer-grid">-->
-					<!--<h4>order & contact</h4>-->
-					<!--<ul>-->
-						<!--<li><a href="#">Order Status</a></li>-->
-						<!--<li><a href="#">Order FAQ</a></li>-->
-
-					<!--</ul>-->
-				<!--</div>-->
-				<!--<div class="col-md-2 footer-grid">-->
-					<!--<h4>legal</h4>-->
-					<!--<ul>-->
-						<!--<li><a href="#">Privacy</a></li>-->
-						<!--<li><a href="#">Terms and Conditions</a></li>-->
-						<!--<li><a href="#">Social Responsibility</a></li>-->
-					<!--</ul>-->
-				<!--</div>-->
-				<!--<div class="col-md-3 footer-grid icons">-->
-					<!--<h4>Connect with Us</h4>-->
-					<!--<ul>-->
-						<!--&lt;!&ndash;<li><a href="#"><img src="images/i1.png" alt=""/>Follow us on Facebook</a></li>&ndash;&gt;-->
-						<!--&lt;!&ndash;<li><a href="#"><img src="images/i2.png" alt=""/>Follow us on Twitter</a></li>&ndash;&gt;-->
-						<!--&lt;!&ndash;<li><a href="#"><img src="images/i3.png" alt=""/>Follow us on Google-plus</a></li>&ndash;&gt;-->
-						<!--&lt;!&ndash;<li><a href="#"><img src="images/i4.png" alt=""/>Follow us on Pinterest</a></li>&ndash;&gt;-->
-					<!--</div>-->
-				<!--</div>-->
-				<!--<div class="clearfix"></div>-->
-			<!--</div>-->
-		<!--</div>-->
-	<!--</div>-->
-	<!--&lt;!&ndash;//footer&ndash;&gt;-->
-	<!-- single room intro -->
-	<div class="single">
-		<div class="container">
-			<div class="single-top">
-				<div class="col-md-6 single-left">
-					<a href="details.html"><img src="images/s3.jpg" class="img-responsive" alt=""></a>
-				</div>
-				<div class="col-md-6 single-right">
-					<h3><a href="details.html">Publishing software like Aldus</a></h3>
-					<p>The point of using Lorem Ipsum is that it has a <strong>more-or-less normal</strong> distribution of letters, as opposed to using 'Content here, content here'</p>
-					<p>when an unknown printer took a s that it has galley of type and scrambled it to make a type </p>
-					<h5>*The Booking detials for must be Ipsum is that it has.</h5>
-					<h6>• Our stylish hotel is ideally located</h6>
-					<div class="sinbt">
-						<a class="hvr-shutter-in-horizontal" href="details.html">Book Now</a>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="single-top">
-				<div class="col-md-6 single-right">
-					<h3><a href="details.html">There are many variations</a></h3>
-					<p>The point of using Lorem Ipsum is that it has a <strong>more-or-less normal</strong> distribution of letters, as opposed to using 'Content here, content here'</p>
-					<p>when an unknown printer took a s that it has galley of type and scrambled it to make a type </p>
-					<h5>*The Booking detials for must be Ipsum is that it has.</h5>
-					<h6>• Our stylish hotel is ideally located</h6>
-					<div class="sinbt">
-						<a class="hvr-shutter-in-horizontal" href="details.html">Book Now</a>
-					</div>
-				</div>
-				<div class="col-md-6 single-left">
-					<a href="details.html"><img src="images/s1.jpg" class="img-responsive" alt=""></a>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="single-top">
-				<div class="col-md-6 single-left">
-					<a href="details.html"><img src="images/s2.JPG" class="img-responsive" alt=""></a>
-				</div>
-				<div class="col-md-6 single-right">
-					<h3><a href="details.html">Lorem Ipsum is that it has</a></h3>
-					<p>The point of using Lorem Ipsum is that it has a <strong>more-or-less normal</strong> distribution of letters, as opposed to using 'Content here, content here'</p>
-					<p>when an unknown printer took a s that it has galley of type and scrambled it to make a type </p>
-					<h5>*The Booking detials for must be Ipsum is that it has.</h5>
-					<h6>• Our stylish hotel is ideally located</h6>
-					<div class="sinbt">
-						<a class="hvr-shutter-in-horizontal" href="details.html">Book Now</a>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
+<footer id="footer">
+	<div class="container">
+		<div class="row myfooter">
+			<div style="text-align: center">
+				Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http:edenaresorts.com/">Edena</a>
+			</div></div>
 	</div>
-
-
-			<div class="endline"></div>
-
-	<div class="footer-bottom">
-		<div class="footer-grids">
-			<div class="footer-grids">
-				<div class="col-md-2 footer-grid">
-					<ul a href="products.html">products</ul>
-				</div>
-				<div class="col-md-2 footer-grid">
-					<ul a href="#">Support</ul>
-				</div>
-				<div class="col-md-2 footer-grid">
-					<ul a href="#">Order Status</ul>
-				</div>
-				<div class="col-md-2 footer-grid">
-					<ul a href="#">Privacy</ul>
-				</div>
-				<!--<div class="col-md-3 footer-grid icons">-->
-					<!--<ul>-->
-						<!--<li><a href="#"><img src="images/i1.png" alt=""/>Follow us on Facebook</a></li>-->
-						<!--<li><a href="#"><img src="images/i2.png" alt=""/>Follow us on Twitter</a></li>-->
-						<!--<li><a href="#"><img src="images/i3.png" alt=""/>Follow us on Google-plus</a></li>-->
-						<!--<li><a href="#"><img src="images/i4.png" alt=""/>Follow us on Pinterest</a></li>-->
-				<!--</div>-->
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="container">
-			<p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http:xj3007.com/">Edena</a></p>
-		</div>
 	</div>
-</body>
+</footer><!-- END: LAYOUT/FOOTERS/FOOTER-5 -->
 
+<!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+<div class="c-layout-go2top">
+	<i class="icon-arrow-up"></i>
+</div><!-- END: LAYOUT/FOOTERS/GO2TOP -->
+
+
+<script src="js/jquery.min.js" type="text/javascript" ></script>
+<script src="js/reveal-animate.js" type="text/javascript" ></script>
+
+<!-- END: CORE PLUGINS -->
+
+<!-- BEGIN: LAYOUT PLUGINS -->
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 <!-- cart -->
 <script src="js/simpleCart.min.js"> </script>
 <!-- cart -->
+<script src="js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+<!-- END: LAYOUT PLUGINS -->
 
-<script src="js/responsiveslides.min.js"></script>
-	<script>
-        $(function () {
-            $("#slider").responsiveSlides({
-                auto:true,
-                nav: false,
-                speed: 500,
-                namespace: "callbacks",
-                pager:true,
-            });
-        });
-	</script>
-	<script src="js/owl.carousel.js"></script>
-	<script>
-        $(document).ready(function() {
-            $("#owl-demo").owlCarousel({
-                items : 1,
-                lazyLoad : true,
-                autoPlay : true,
-                navigation : false,
-                navigationText :  false,
-                pagination : true,
-            });
-        });
-	</script>
+<script>
+    $(document).ready(function() {
+        App.init(); // init core
+    });
+</script>
+<!-- END: THEME SCRIPTS -->
+
+<!-- BEGIN: PAGE SCRIPTS -->
+<script src="js/2col-portfolio.js" type="text/javascript"></script>
+<!-- END: PAGE SCRIPTS -->
+<!-- END: LAYOUT/BASE/BOTTOM -->
+</body>
 </html>
