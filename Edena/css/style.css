@@ -3746,12 +3746,7 @@ a.more:hover{
 
 }
 
-.left-container {
-    width: 60%;
-    padding-left: 0;
-    padding-top: 1%;
-    float:left;
-}
+
 
 .idxpress-section {
     padding: 3em 0;
@@ -3780,7 +3775,7 @@ a.more:hover{
 
 .idxpres-top{
     float: top;
-    width: 90%;
+    width: 100%;
 }
 .idxpres-down{
     float:bottom;
@@ -4248,10 +4243,10 @@ select option{
 
 /**Leaflet Map**/
 #hotelmap {
-    margin-top: -100px;
-    margin-left: 100px;
+    margin-top: 200px;
+    margin-left: -100px;
     height:100%;
-    width: 40%;
+    width: 45%;
     min-width: 600px;
     position: fixed;
     float: right;
@@ -4260,12 +4255,13 @@ select option{
 
 #fluidhotelmap {
     margin-top: -10px;
+    margin-left: -5%;
     height:800px;
     width: 800px;
     min-width: 600px;
     min-width: 600px;
     position: relative;
-    float: right;
+    float: left;
     display: inline;
 }
 .leaflet-popup-content-wrapper,.leaflet-popup-content
@@ -4288,6 +4284,7 @@ select option{
 .hotel-list{
 
     margin-left: 1.82%;
+    margin-right: 0;
 }
 
 /**about**/
@@ -4415,6 +4412,7 @@ select option{
 .left-grids{
     margin-top: 50px;
     margin-left: 35px;
+
 
 }
 .tags {
@@ -4565,3 +4563,21 @@ select option{
     color: rgba(0,0,0,.4);
 }
 
+@media screen and (max-width: 1500px){
+    .left-container{
+        width: 100%;
+        margin-top: 60px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .left-container {
+        width: 60%;
+        padding-left: 0;
+        padding-top: 1%;
+        float:left;
+        margin-top: 60px;
+    }
+}
