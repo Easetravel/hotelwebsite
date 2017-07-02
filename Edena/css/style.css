@@ -35,8 +35,8 @@ p{
     margin:0;
 }
 ul,label{
-    margin:10;
-    padding:10;
+    margin:10px;
+    padding:10px;
 }
 body a:hover{
     text-decoration:none;
@@ -1794,7 +1794,6 @@ ul.qty li p {
 }
 li.bt-nn h6 {
     font-size: 1.2em;
-    text-align: r;
     color: #621622;
     margin: 1em 0;
 }
@@ -1809,7 +1808,6 @@ li.bt-nn h6 {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding: 0em;
     position:relative;
 }
 .pick {
@@ -1845,14 +1843,14 @@ i.sear{
     font-size: 0.85em;
 }
 i.ca-r{
-    background: url(../images/ca-r.png) no-repeat 0px 0px;
+    background: url(../images/1.png) no-repeat 0px 0px;
     height: 26px;
     width: 26px;
     display: inline-block;
     vertical-align:middle;
 }
 i.sele{
-    background: url(../images/sele.png) no-repeat 0px 0px;
+    background: url(../images/1.png) no-repeat 0px 0px;
     height: 26px;
     width: 26px;
     display: inline-block;
@@ -3407,11 +3405,11 @@ header{
     height: 750px;
 }
 h1,h2,h3,h4,h5,h6 {display: block;}
-h1, h2 	{font-size: 25px;line-height: 25px;font-family: Oswald-Regular;}
+h1, h2 	{font-size: 25px;line-height: 25px;font-family: "Oswald-Regular";}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
-p{margin: 10px 0;line-height: 1em;letter-spacing: 1px;color: #666; font-family: "Roboto Slab"; font-size: 17px;}
+p{margin: 10px 0;line-height: 25px;letter-spacing: 1px;color: #666; font-family: "RobotoSlab-Regular"; font-size: 16px;}
 
 header .top-bar {background-color: lightblue;}
 header .top-bar .wrap-top{}
@@ -3731,13 +3729,15 @@ a.more:hover{
     font-size: 5em;
     text-transform: capitalize;
     text-align: center;
-    font-family: 'Righteous', cursive;
+    font-family: Oswald-Regular;
     color: #fff;
     margin-top: 2em;
 }
 .container h7{
     font-size: 2em;
-    color:000;
+    color:#000000;
+    font-family: Oswald-medium;
+    line-height: 60px;
 }
 /**IDXpress**/
 .idxpress-map{
@@ -3785,7 +3785,7 @@ a.more:hover{
 .idxpres-down h5 {
     font-size: 1.2em;
     padding: .5em 0 .5em .5em;
-    font-family: "Roboto Slab";
+    font-family: 'RobotoSlab-Regular';
     color: black;
 
 }
@@ -3793,7 +3793,7 @@ a.more:hover{
 .idxpres-down h6 {
     font-size: 1.8em;
     padding: .5em 0 .5em .5em;
-   font-family: Oswald-Regular;
+   font-family: 'Oswald-medium';
     color: #2da9e1;
 
 }
@@ -3878,7 +3878,7 @@ ul.bottom-right {
     line-height: 1.5em;
     padding: .5em .5em;
     color: #777;
-    border-top: 1px solid #eee;
+    border-top: 1px;
 }
 .additional-details ul {
     margin-top: 3em;
@@ -4130,6 +4130,7 @@ ul.p-nav {
     background: #FFFFFF;
     min-width: 620px;
     float: left;
+    margin-top: 1.5em;
 }
 
 }
@@ -4492,7 +4493,7 @@ select option{
     font-family: "Roboto Slab";
 }
 .price h6{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 0.8em;
     font-family: Oswald-Regular;
 }
@@ -4563,7 +4564,7 @@ select option{
     color: rgba(0,0,0,.4);
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1100px){
     .left-container{
         width: 100%;
         margin-top: 60px;
@@ -4572,7 +4573,7 @@ select option{
     }
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1100px){
     .left-container {
         width: 60%;
         padding-left: 0;
