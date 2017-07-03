@@ -1,19 +1,19 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+Author:
+Author URL:
+License:
+License URL:
 --*/
 body{
     margin:0;
-    font-family: 'Roboto Slab';
+    font-family: 'RobotoSlab-Regular';
     background-color:#fff;
     min-width: 800px;
 }
 
 @font-face {
-    font-family: 'Oswald-Regular';
-    src: url(../fonts/Oswald-Regular.ttf) format('truetype');
+    font-family: 'Oswald-Medium';
+    src: url(../fonts/Oswald-Medium.ttf) format('truetype');
 }
 @font-face {
     font-family: 'RobotoSlab-Regular';
@@ -26,7 +26,7 @@ body a{
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
     text-decoration:none;
-    font-family: "Roboto Slab";
+    font-family: 'RobotoSlab-Regular';
 }
 h1,h2,h3,h4,h5,h6{
     margin:0;
@@ -64,7 +64,7 @@ nav.navbar.navbar-default {
 }
 h1.navbar-brand {
     font-size: 3em;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
     padding: 0.3em 1em 0 0;
 }
 h1.navbar-brand a {
@@ -308,7 +308,7 @@ fieldset#body {
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
-    font-family: 'Roboto Slab';
+    font-family: 'RobotoSlab-Regular';
 }
 #loginForm #login:hover {
     background: #fff;
@@ -415,7 +415,7 @@ input:focus {
 }
 .banner h2.hdng {
     font-size: 6em;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
     color: #333;
     font-weight: 800;
     text-align:left;
@@ -426,7 +426,7 @@ input:focus {
     letter-spacing: 7px;
     font-weight: 700;
     color: #2da9e1;
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab-Regular";
 }
 .banner a {
     font-size: 1.5em;
@@ -434,7 +434,7 @@ input:focus {
     font-weight: 800;
     padding: 0.5em 3em;
     border: 1px solid #333;
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab-Regular";
 }
 .banner a:hover {
     border-color: #2da9e1;
@@ -616,7 +616,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     padding-bottom: 0.5em;
     margin: 0;
     font-size: 4em;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
 }
 .subscribe form{
     width:50%;
@@ -668,7 +668,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     text-transform: uppercase;
     color: #2da9e1;
     margin-bottom: 1em;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
 }
 .footer-grid ul li {
     list-style: none;
@@ -885,7 +885,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
 .product-info-cust h4{
     color: #999;
     font-size: 0.95em;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
     text-transform: uppercase;
 }
 .product-info-cust p{
@@ -1148,7 +1148,7 @@ p.simpleCart_empty{
 }
 .prdt-cost ul li{
     display:block;
-    font-family: 'Roboto-Regular';
+    font-family: 'RobotoSlab-Regular';
     font-size:0.8em;
     padding:2px;
     color:#999;
@@ -1316,7 +1316,7 @@ p.qty {
     line-height: 1.6em;
     color: #333;
     margin-bottom: 0.5em;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
 }
 .single-grid p {
     font-size: 1em;
@@ -1403,7 +1403,7 @@ p span.overline{
 .related-products h3 {
     font-size: 3.5em;
     color: #2da9e1;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
 }
 .products-grid h4 {
     font-size: 1.1em;
@@ -1444,7 +1444,7 @@ p span.overline{
     padding-bottom: 1em;
     margin: 0;
     text-align: center;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
 }
 .register-top-grid .input, .register-bottom-grid .input {
     margin: 10px 0;
@@ -1587,7 +1587,7 @@ p span.overline{
 }
 .cart-item-info h3 {
     font-size: 2em;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
 }
 .cart-item-info h3 a {
     color: #2da9e1;
@@ -1768,7 +1768,7 @@ a.item_add1 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     padding: 10px 15px;
-    background: url(0) #f54d56;
+    background: url(../images/1.jpg) #f54d56;
 }
 a.item_add1:hover{
     background:rgb(3, 193, 167);
@@ -1825,7 +1825,7 @@ li.bt-nn h6 {
 }
 
 i.sear{
-    background: url(../images/search-icon.png) no-repeat 0px 2px;
+    background: url(../images/button-search.png) no-repeat 0px 2px;
     height: 26px;
     width: 26px;
     display: inline-block;
@@ -1896,7 +1896,7 @@ i.sele{
     font-size: 2.1em;
     color: #2da9e1;
     margin: 0 0 0.8em 0;
-    font-family: 'Oswald-Regular';
+    font-family: 'Oswald-Medium';
 }
 .contact-infom {
     padding-top: 4em;
@@ -2636,6 +2636,7 @@ span.glyphicon.glyphicon-map-marker {
         font-size: 0.9em;
         border: none;
         text-align: center;
+        font-family: 'Oswald-Medium';
     }
     .col-sm-3 {
         width: 100%;
@@ -3360,7 +3361,7 @@ span.glyphicon.glyphicon-map-marker {
 .content-box {}
 .content-box .wrap-box {padding:30px 10px; position: relative;}
 .content-box .header {text-align: center; margin: 30px 0; }
-.content-box .header h2{font-size: 34px; color:#2da9e1;font-weight: 500;letter-spacing: 3px;font-family: Oswald-Regular;
+.content-box .header h2{font-size: 34px; color:#2da9e1;font-weight: 500;letter-spacing: 3px;font-family: Oswald-Medium;
 }
 .content-box .header p{margin-top: 30px;}
 .content-box .header.wrapper{padding: 5px 30px; display: inline-block;}
@@ -3375,7 +3376,7 @@ span.glyphicon.glyphicon-map-marker {
 .content-box.box-1 {}
 .content-box.box-1  img{max-height: 300px;width:100%;border-top-left-radius: 8px;border-top-right-radius: 8px;}
 .content-box.box-1 .post{display: inline-block;background-color:#fff;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
-.content-box.box-1 h3 {color: #2da9e1; margin: 20px; text-align: center; font-family: Oswald-Regular;}
+.content-box.box-1 h3 {color: #2da9e1; margin: 20px; text-align: center; font-family: Oswald-Medium;}
 .content-box.box-1 .upload { padding: 5px 15px;;border-top: 1px solid #eee;font-size: 15px;color: #555;}
 .content-box.box-1 .upload:hover {background : #DDD;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;}
 .content-box.box-1 .upload a{ color: #2da9e1;font-weight: bold;}
@@ -3405,7 +3406,7 @@ header{
     height: 750px;
 }
 h1,h2,h3,h4,h5,h6 {display: block;}
-h1, h2 	{font-size: 25px;line-height: 25px;font-family: "Oswald-Regular";}
+h1, h2 	{font-size: 25px;line-height: 25px;font-family: 'Oswald-Medium';}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
@@ -3447,7 +3448,7 @@ header #search input[type="text"] {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    /*-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;*/
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
     -webkit-transition: all 0.7s ease 0s;
@@ -3526,14 +3527,14 @@ header #search input[type="submit"]{
     font-size: 2em;
     text-transform: capitalize;
     color: #000000;
-    font-family: 'roboto-regular';
+    font-family: 'RobotoSlab-Regular';
 }
 .caption p{
     font-size: 1em;
     color: #222;
     line-height: 1.8em;
     padding: 1em 0 2em;
-    font-family: 'roboto-regular';
+    font-family: 'RobotoSlab-Regular';
 
 }
 .callbacks_tabs a:after {
@@ -3610,7 +3611,7 @@ a.more:hover{
     margin: 0;
     font-weight: 500;
     text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoSlab-Regular', sans-serif;
 }
 .single h3 a:hover{
     color:#6cbc35;
@@ -3729,14 +3730,14 @@ a.more:hover{
     font-size: 5em;
     text-transform: capitalize;
     text-align: center;
-    font-family: Oswald-Regular;
+    font-family: Oswald-Medium;
     color: #fff;
     margin-top: 2em;
 }
 .container h7{
     font-size: 2em;
     color:#000000;
-    font-family: Oswald-medium;
+    font-family: Oswald-Medium;
     line-height: 60px;
 }
 /**IDXpress**/
@@ -3793,7 +3794,7 @@ a.more:hover{
 .idxpres-down h6 {
     font-size: 1.8em;
     padding: .5em 0 .5em .5em;
-   font-family: 'Oswald-medium';
+   font-family: 'Oswald-Medium';
     color: #2da9e1;
 
 }
@@ -3815,7 +3816,7 @@ a.more:hover{
     line-height: 2em;
     padding: 0 1em;
     color: #777;
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab-Regular";
 }
 .idxpresright-bottom {
     margin-top: 1.5em;
@@ -3886,7 +3887,7 @@ ul.bottom-right {
 .additional-details ul li span {
     font-weight:600;
     color: #000;
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab-Regular";
 }
 .additional-details ul li:hover {
     background: #eee;
@@ -3894,28 +3895,28 @@ ul.bottom-right {
 .additional-details ul li:nth-child(17){
     border-bottom: 1px solid #eee;
 }
-.note {
-    margin: 3em 0;
-    background: #eee;
-    padding: 2em 2em;
-}
-.note h4 {
-    font-size: 1.5em;
-    font-family: 'Righteous', cursive;
-    color: #000;
-    margin-bottom: .5em;
-}
-.video img {
-    width: 100%;
-}
-.video h4 {
-    font-size: 1.5em;
-    font-family: 'Righteous', cursive;
-    color: #fff;
-    background-color: #faa43d;
-    padding: 1em;
-    width: 25%;
-}
+/*.note {*/
+    /*margin: 3em 0;*/
+    /*background: #eee;*/
+    /*padding: 2em 2em;*/
+/*}*/
+/*.note h4 {*/
+    /*font-size: 1.5em;*/
+    /*font-family: 'Righteous', cursive;*/
+    /*color: #000;*/
+    /*margin-bottom: .5em;*/
+/*}*/
+/*.video img {*/
+    /*width: 100%;*/
+/*}*/
+/*.video h4 {*/
+    /*font-size: 1.5em;*/
+    /*font-family: 'Righteous', cursive;*/
+    /*color: #fff;*/
+    /*background-color: #faa43d;*/
+    /*padding: 1em;*/
+    /*width: 25%;*/
+/*}*/
 .similar-grids {
     margin-top: 3em;
 }
@@ -4107,7 +4108,7 @@ a.button2 {
     color:#fff;
     font-size:4em;
     text-transform:uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoSlab-Regular', sans-serif;
     font-weight:700;
 }
 .page-header{
@@ -4181,7 +4182,7 @@ ul.p-nav {
     color: #5F5F5F;
     text-transform: capitalize;
     margin-bottom: 10px;
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab-Regular";
 }
 select {
     width: 100%;
@@ -4295,7 +4296,7 @@ select option{
 .about-section h3 {
     font-size: 1.5em;
     text-transform: capitalize;
-    font-family: 'Righteous', cursive;
+    font-family: 'RobotoSlab-Regular';
     color: #2da9e1;
     margin-bottom: 1em
 }
@@ -4313,7 +4314,7 @@ select option{
 }
 .about-right h5,.about-right1 h5{
     font-size: 1.2em;
-    font-family: 'Righteous', cursive;
+    font-family: 'RobotoSlab-Regular';
     color: #000;
 }
 .about-right p {
@@ -4331,17 +4332,17 @@ select option{
     float: left;
     width: 84%;
 }
-.about-left1 p {
-    background: #2da9e1;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    font-size: 1.2em;
-    margin: 0;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 0.45em;
-}
+/*.about-left1 p {*/
+    /*background: #2da9e1;*/
+    /*color: #fff;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*font-size: 1.2em;*/
+    /*margin: 0;*/
+    /*border-radius: 50%;*/
+    /*text-align: center;*/
+    /*padding-top: 0.45em;*/
+/*}*/
 .about-right1 p {
     font-size: 1em;
     line-height: 1.8em;
@@ -4375,7 +4376,7 @@ select option{
 }
 .aboutbottom-right h5 {
     font-size: 1.2em;
-    font-family: 'Righteous', cursive;
+    font-family: 'RobotoSlab-Regular';
     color: #000;
 }
 .about5 {
@@ -4389,7 +4390,7 @@ select option{
 }
 .about-bottom2 h5 {
     font-size: 1.2em;
-    font-family: 'Righteous', cursive;
+    font-family: 'RobotoSlab-Regular';
     color: #000;
 }
 .about-bottom2 a {
@@ -4467,7 +4468,7 @@ select option{
     width: 70%;
     text-align: right;
     display: block;
-    font-family: Oswald-Regular;
+    font-family: Oswald-Medium;
     padding-top: 0.5em;
 }
 
@@ -4483,19 +4484,19 @@ select option{
     font-size: 2em;
     display: inline-block;
     padding: 1%;
-    font-family: 'Oswald-Light';
+    font-family: 'Oswald-Medium';
 }
 
 .carousel h3{
-    font-family: Oswald-Regular;
+    font-family: Oswald-Medium;
 }
 .carousel p{
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab-Regular";
 }
 .price h6{
     font-size: 20px;
     margin-top: 0.8em;
-    font-family: Oswald-Regular;
+    font-family: Oswald-Medium;
 }
 
 .headlogo {
