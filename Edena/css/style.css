@@ -4122,17 +4122,7 @@ ul.p-nav {
 }
 
 
-.reservation{
-    padding: 1% 0 0 0;
-    margin: 1 auto;
-    display: inline-block;
-    width: 90%;
-    height: 100px;
-    background: #FFFFFF;
-    min-width: 620px;
-    float: left;
-    margin-top: 1.5em;
-}
+
 
 }
 .b_room{
@@ -4246,7 +4236,7 @@ select option{
 /**Leaflet Map**/
 #hotelmap {
     margin-top: 200px;
-    margin-left: -100px;
+    /*margin-left: -100px;*/
     height:100%;
     width: 45%;
     min-width: 600px;
@@ -4285,8 +4275,7 @@ select option{
 
 .hotel-list{
 
-    margin-left: 1.82%;
-    margin-right: 0;
+  padding-left: 3.64%;
 }
 
 /**about**/
@@ -4438,9 +4427,7 @@ select option{
   -webkit-transition: color 0.2s;
 }
 
-.col-md-5{
-    width: 35.86%;
-}
+
  /*sigle-room page */
 .room-container {
     margin-top: 45px;
@@ -4503,6 +4490,7 @@ select option{
     height: 150%;
     width: 80%;
     display: inline-block;
+
 }
 
 /**Collections Page**/
@@ -4565,18 +4553,27 @@ select option{
     color: rgba(0,0,0,.4);
 }
 
+.head-container{
+    padding-left: 1.82%;
+    margin-left: 0;
+}
+
+.footer-container{
+    margin: auto;
+}
+
 @media screen and (max-width: 1100px){
     .left-container{
         width: 100%;
         margin-top: 60px;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 1.82%;
     }
 }
 
 @media screen and (min-width: 1100px){
     .left-container {
-        width: 60%;
+        width: 66%;
         padding-left: 0;
         padding-top: 1%;
         float:left;
