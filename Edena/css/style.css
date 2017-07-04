@@ -6,7 +6,7 @@ License URL:
 --*/
 body{
     margin:0;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
     background-color:#fff;
     min-width: 800px;
 }
@@ -26,7 +26,7 @@ body a{
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
     text-decoration:none;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
 }
 h1,h2,h3,h4,h5,h6{
     margin:0;
@@ -64,7 +64,7 @@ nav.navbar.navbar-default {
 }
 h1.navbar-brand {
     font-size: 3em;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
     padding: 0.3em 1em 0 0;
 }
 h1.navbar-brand a {
@@ -83,7 +83,7 @@ nav.navbar.navbar-default {
     padding: 23px 25px;
     border-left: 1px;
     display: block;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'RobotoSlab-Regular', serif;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background: #0094dd;
@@ -308,7 +308,7 @@ fieldset#body {
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
 }
 #loginForm #login:hover {
     background: #fff;
@@ -415,7 +415,7 @@ input:focus {
 }
 .banner h2.hdng {
     font-size: 6em;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
     color: #333;
     font-weight: 800;
     text-align:left;
@@ -426,7 +426,7 @@ input:focus {
     letter-spacing: 7px;
     font-weight: 700;
     color: #2da9e1;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'RobotoSlab-Regular', serif;
 }
 .banner a {
     font-size: 1.5em;
@@ -434,7 +434,7 @@ input:focus {
     font-weight: 800;
     padding: 0.5em 3em;
     border: 1px solid #333;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'RobotoSlab-Regular', serif;
 }
 .banner a:hover {
     border-color: #2da9e1;
@@ -616,7 +616,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     padding-bottom: 0.5em;
     margin: 0;
     font-size: 4em;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 .subscribe form{
     width:50%;
@@ -668,7 +668,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     text-transform: uppercase;
     color: #2da9e1;
     margin-bottom: 1em;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 .footer-grid ul li {
     list-style: none;
@@ -885,7 +885,7 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
 .product-info-cust h4{
     color: #999;
     font-size: 0.95em;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
     text-transform: uppercase;
 }
 .product-info-cust p{
@@ -1148,7 +1148,7 @@ p.simpleCart_empty{
 }
 .prdt-cost ul li{
     display:block;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
     font-size:0.8em;
     padding:2px;
     color:#999;
@@ -1316,7 +1316,7 @@ p.qty {
     line-height: 1.6em;
     color: #333;
     margin-bottom: 0.5em;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 .single-grid p {
     font-size: 1em;
@@ -1403,7 +1403,7 @@ p span.overline{
 .related-products h3 {
     font-size: 3.5em;
     color: #2da9e1;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 .products-grid h4 {
     font-size: 1.1em;
@@ -1444,7 +1444,7 @@ p span.overline{
     padding-bottom: 1em;
     margin: 0;
     text-align: center;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 .register-top-grid .input, .register-bottom-grid .input {
     margin: 10px 0;
@@ -1587,7 +1587,7 @@ p span.overline{
 }
 .cart-item-info h3 {
     font-size: 2em;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 .cart-item-info h3 a {
     color: #2da9e1;
@@ -2636,7 +2636,7 @@ span.glyphicon.glyphicon-map-marker {
         font-size: 0.9em;
         border: none;
         text-align: center;
-        font-family: 'Oswald-Medium';
+        font-family: 'Oswald-Medium', serif;
     }
     .col-sm-3 {
         width: 100%;
@@ -3361,7 +3361,7 @@ span.glyphicon.glyphicon-map-marker {
 .content-box {}
 .content-box .wrap-box {padding:30px 10px; position: relative;}
 .content-box .header {text-align: center; margin: 30px 0; }
-.content-box .header h2{font-size: 34px; color:#2da9e1;font-weight: 500;letter-spacing: 3px;font-family: Oswald-Medium;
+.content-box .header h2{font-size: 34px; color:#2da9e1;font-weight: 500;letter-spacing: 3px;font-family: 'Oswald-Medium', serif;
 }
 .content-box .header p{margin-top: 30px;}
 .content-box .header.wrapper{padding: 5px 30px; display: inline-block;}
@@ -3376,7 +3376,7 @@ span.glyphicon.glyphicon-map-marker {
 .content-box.box-1 {}
 .content-box.box-1  img{max-height: 300px;width:100%;border-top-left-radius: 8px;border-top-right-radius: 8px;}
 .content-box.box-1 .post{display: inline-block;background-color:#fff;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
-.content-box.box-1 h3 {color: #2da9e1; margin: 20px; text-align: center; font-family: Oswald-Medium;}
+.content-box.box-1 h3 {color: #2da9e1; margin: 20px; text-align: center; font-family: 'Oswald-Medium', serif;}
 .content-box.box-1 .upload { padding: 5px 15px;;border-top: 1px solid #eee;font-size: 15px;color: #555;}
 .content-box.box-1 .upload:hover {background : #DDD;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;}
 .content-box.box-1 .upload a{ color: #2da9e1;font-weight: bold;}
@@ -3406,11 +3406,11 @@ header{
     height: 750px;
 }
 h1,h2,h3,h4,h5,h6 {display: block;}
-h1, h2 	{font-size: 25px;line-height: 25px;font-family: 'Oswald-Medium';}
+h1, h2 	{font-size: 25px;line-height: 25px;font-family: 'Oswald-Medium', serif;}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
-p{margin: 10px 0;line-height: 25px;letter-spacing: 1px;color: #666; font-family: "RobotoSlab-Regular"; font-size: 16px;}
+p{margin: 10px 0;line-height: 25px;letter-spacing: 1px;color: #666; font-family: 'RobotoSlab-Regular', serif; font-size: 16px;}
 
 header .top-bar {background-color: lightblue;}
 header .top-bar .wrap-top{}
@@ -3527,14 +3527,14 @@ header #search input[type="submit"]{
     font-size: 2em;
     text-transform: capitalize;
     color: #000000;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
 }
 .caption p{
     font-size: 1em;
     color: #222;
     line-height: 1.8em;
     padding: 1em 0 2em;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
 
 }
 .callbacks_tabs a:after {
@@ -3730,14 +3730,14 @@ a.more:hover{
     font-size: 5em;
     text-transform: capitalize;
     text-align: center;
-    font-family: Oswald-Medium;
+    font-family: 'Oswald-Medium', serif;
     color: #fff;
     margin-top: 2em;
 }
 .container h7{
     font-size: 2em;
     color:#000000;
-    font-family: Oswald-Medium;
+    font-family: 'Oswald-Medium', serif;
     line-height: 60px;
 }
 /**IDXpress**/
@@ -3786,7 +3786,7 @@ a.more:hover{
 .idxpres-down h5 {
     font-size: 1.2em;
     padding: .5em 0 .5em .5em;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
     color: black;
 
 }
@@ -3794,14 +3794,14 @@ a.more:hover{
 .idxpres-down h6 {
     font-size: 1.8em;
     padding: .5em 0 .5em .5em;
-   font-family: 'Oswald-Medium';
+   font-family: 'Oswald-Medium', serif;
     color: #2da9e1;
 
 }
 .idxpres-right h5 {
     font-size: 1.2em;
     padding: .5em 0 .5em .5em;
-    font-family: 'Righteous', cursive;
+    font-family: 'Oswald-Medium', serif;
     color: #fff;
     background: #34ABE2;
 }
@@ -3816,7 +3816,7 @@ a.more:hover{
     line-height: 2em;
     padding: 0 1em;
     color: #777;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'RobotoSlab-Regular', serif;
 }
 .idxpresright-bottom {
     margin-top: 1.5em;
@@ -3887,7 +3887,7 @@ ul.bottom-right {
 .additional-details ul li span {
     font-weight:600;
     color: #000;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'RobotoSlab-Regular', serif;
 }
 .additional-details ul li:hover {
     background: #eee;
@@ -3922,7 +3922,7 @@ ul.bottom-right {
 }
 .similar-grid h5,.feature-top h5,.forsale-grid1 h5{
     font-size: 1.2em;
-    font-family: 'Righteous', cursive;
+    font-family: 'Oswald-Medium', serif;
     color: #000;
     font-style: italic;
     padding: .5em 0 .2em 0;
@@ -3932,7 +3932,7 @@ ul.bottom-right {
 }
 .similar-grids h4 {
     font-size: 1.5em;
-    font-family: 'Righteous', cursive;
+    font-family: 'Oswald-Medium', serif;
     color: #000;
     margin:0 0 .5em .5em;
     text-transform: capitalize;
@@ -3943,7 +3943,7 @@ ul.bottom-right {
 }
 .properties-top h4,.properties-middle h4,.feature h4{
     font-size: 1.5em;
-    font-family: 'Righteous', cursive;
+    font-family: 'Oswald-Medium', serif;
     color: #fff;
     padding: 1em 0;
     background: #FAA43D;
@@ -3997,7 +3997,7 @@ a.button2 {
 }
 .send-message h5{
     font-size: 1.5em;
-    font-family: 'Righteous', cursive;
+    font-family: 'Oswald-Medium', serif;
     color: #000;
     margin-bottom: .5em;
 }
@@ -4065,7 +4065,7 @@ a.button2 {
 .yourplace h5,.yourplace-grid h5 {
     font-size: 1.1em;
     text-transform: capitalize;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Oswald-Medium',serif;
     color: #777;
 }
 .sel2 {
@@ -4108,7 +4108,7 @@ a.button2 {
     color:#fff;
     font-size:4em;
     text-transform:uppercase;
-    font-family: 'RobotoSlab-Regular', sans-serif;
+    font-family: 'RobotoSlab-Regular',serif;
     font-weight:700;
 }
 .page-header{
@@ -4172,7 +4172,7 @@ ul.p-nav {
     color: #5F5F5F;
     text-transform: capitalize;
     margin-bottom: 10px;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'RobotoSlab-Regular', serif;
 }
 select {
     width: 100%;
@@ -4285,7 +4285,7 @@ select option{
 .about-section h3 {
     font-size: 1.5em;
     text-transform: capitalize;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
     color: #2da9e1;
     margin-bottom: 1em
 }
@@ -4303,7 +4303,7 @@ select option{
 }
 .about-right h5,.about-right1 h5{
     font-size: 1.2em;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
     color: #000;
 }
 .about-right p {
@@ -4365,7 +4365,7 @@ select option{
 }
 .aboutbottom-right h5 {
     font-size: 1.2em;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
     color: #000;
 }
 .about5 {
@@ -4379,7 +4379,7 @@ select option{
 }
 .about-bottom2 h5 {
     font-size: 1.2em;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular', serif;
     color: #000;
 }
 .about-bottom2 a {
@@ -4455,7 +4455,7 @@ select option{
     width: 70%;
     text-align: right;
     display: block;
-    font-family: Oswald-Medium;
+    font-family: 'Oswald-Medium', serif;
     padding-top: 0.5em;
 }
 
@@ -4471,19 +4471,19 @@ select option{
     font-size: 2em;
     display: inline-block;
     padding: 1%;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 
 .carousel h3{
     font-family: Oswald-Medium;
 }
 .carousel p{
-    font-family: "RobotoSlab-Regular";
+    font-family: 'RobotoSlab-Regular', serif;
 }
 .price h6{
     font-size: 20px;
     margin-top: 0.8em;
-    font-family: Oswald-Medium;
+    font-family: 'Oswald-Medium', serif;
 }
 
 .headlogo {
@@ -4579,4 +4579,7 @@ select option{
         float:left;
         margin-top: 60px;
     }
+}
+.container{
+    margin-left: 1.82%;
 }
