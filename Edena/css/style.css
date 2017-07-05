@@ -4175,6 +4175,7 @@ ul.p-nav {
     font-family: 'RobotoSlab-Regular', serif;
 }
 select {
+    height: 20%;
     width: 100%;
     color: #858585;
     font-size: 1em;
@@ -4197,12 +4198,11 @@ select option{
     transition: all 0.3s ease-in-out;
 }
 .book_date input[type="text"]{
-    width: 88%;
     color: #858585;
     font-size: 1em;
-    padding: 8px 8px 8px 33px;
+    padding: 7px 7px 6px 7px;
     outline: none;
-    margin: 5px 0;
+    margin: 0;
     border: 1px solid #DFDFDF;
     box-shadow: inset 0 0 2px rgb(236, 236, 236);
     -webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
@@ -4215,6 +4215,7 @@ select option{
     margin-top: 27px;
 }
 .date_btn form input[type="submit"] {
+    height: 34px;
     text-transform:capitalize;
     width: 100% !important;
     background: #444444;
@@ -4507,7 +4508,6 @@ select option{
     padding-right: 2.5em;
     border: 0;
     margin: 0;
-    border-radius: 3px;
     text-indent: 0.01px;
     text-overflow: '';
     -webkit-appearance: button;
@@ -4562,6 +4562,27 @@ select option{
     margin: auto;
 }
 
+    
+.reservation{
+   padding-left: 1.83%;
+   padding-top:1%; 
+    margin: 1 auto;
+    display: inline-block;
+    width: 90%;
+    height: 100px;
+    background: #FFFFFF;
+    min-width: 620px;
+    float: left;
+}
+
+#b{
+    display: none;
+}
+#a:hover + #b{
+    display: block;
+}
+
+
 @media screen and (max-width: 1100px){
     .left-container{
         width: 100%;
@@ -4579,7 +4600,4 @@ select option{
         float:left;
         margin-top: 60px;
     }
-}
-.container{
-    margin-left: 1.82%;
 }

@@ -11,20 +11,18 @@
 <!--js-->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/moment.min.js"></script>
 <!--js-->
+
+<!-- Include Date Range Picker -->
+<link rel="stylesheet" type="text/css" href="css/daterangepicker.css" />
 <!--fonts-->
 <!--<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>-->
 <!--<link href='http://fonts.useso.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
 <!--<link href='http://fonts.useso.com/css?family=Righteous' rel='stylesheet' type='text/css'>-->
 
 	<link rel="stylesheet" href="css/jquery-ui.css" />
-	<script src="js/jquery-ui.js"></script>
-	<script>
-        $(function() {
-            $( "#datepicker,#datepicker1" ).datepicker();
-        });
-	</script>
-	<!--/End-date-piker-->
+	
 <!-- pop-up -->
 <!-- leaflet -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
@@ -144,8 +142,47 @@
 	<div class="content">
 			<div class="container-fluid left-container">
 					<div class="reservation visible-lg">
+						<ul>
+							<li style="list-style-type:none;">
+								<div class="section_room" style="width: 300px">
+									<select id="country" onchange="change_country(this.value)" class="frm-field required">
+										<option value="null">Select room</option>
+										<option value="null" >Edena Urban</option>
+										<option value="AX">Edena Park</option>
+										<option value="AX">Edena Collection</option>
+									</select>
+								</div>
+							</li>
+							<li style="list-style-type:none;">
+								<div class="book_date" >
+									<input type="text" name="daterange" value="select date" />
 
+								</div>
+							</li>
+							
+							<li style="list-style-type:none;">
+								<!--start section_room-->
+								<div class="section_room" style="width: 150px;"">
+									<select id="country" onchange="change_country(this.value)" class="frm-field required">
+										<option value="null">Guests</option>
+										<option value="null">1</option>
+										<option value="AX">2</option>
+										<option value="AX">3</option>
+										<option value="AX">2</option>
+										<option value="AX">4</option>
+									</select>
+								</div>
+							</li>
+							<li style="list-style-type:none;">
+								<div class="date_btn">
+									<form>
+										<input type="submit" value="book now" />
+									</form>
+								</div>
+							</li>
+						</ul>
 					</div>
+
 
 				<!-- <div class="clearfix"></div> -->
 					
@@ -440,12 +477,19 @@
 			</div>
 			<!-- //Register -->
 
+<script src="js/jquery-ui.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
 <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
    integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
    crossorigin=""></script>
 <script src='js/map.js'></script>
+<script src="js/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
 </body>
 
 </html>
