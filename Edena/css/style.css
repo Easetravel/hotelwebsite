@@ -3576,7 +3576,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 a.button {
     font-size: 0.8em;
     background: #2DA9E1;
-    padding: 1.2em 1.2em 0em 1.2em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     color: #fff;
     text-decoration: none;
     text-transform: capitalize;
@@ -4217,7 +4217,7 @@ select option{
 }
 
 .date_btn{
-    margin-top: 27px;
+    margin-top: 0px;
 }
 .date_btn form input[type="submit"] {
     height: 34px;
@@ -4580,13 +4580,19 @@ select option{
     float: left;
 }
 
-#b{
-    display: none;
-}
-#a:hover + #b{
-    display: block;
+.slider-button{
+    
+    margin-bottom: 15px;
+    text-align: center;
 }
 
+.footer-word{
+    color: grey;
+}
+
+.grey-image{
+    opacity: 0.4;
+}
 
 @media screen and (max-width: 1100px){
     .left-container{
