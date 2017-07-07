@@ -3372,7 +3372,7 @@ span.glyphicon.glyphicon-map-marker {
 
 .content-box.boxstyle-1{background: #ffffff;}
 .content-box.boxstyle-2{background: #fff; color: #000;}
-.content-box.boxstyle-3{background: url('../images/Forum/Food.jpg') no-repeat 100% 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 400px;}
+/*.content-box.boxstyle-3{background: url('../images/Forum/Food.jpg') no-repeat 100% 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 400px;}*/
 .content-box.boxstyle-4{background: url('../images/bg.jpg') no-repeat 100% 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 400px;}
 
 
@@ -3410,7 +3410,7 @@ header{
     height: 750px;
 }
 h1,h2,h3,h4,h5,h6 {display: block;}
-h1, h2 	{font-size: 25px;line-height: 25px;font-family: 'Oswald-Medium', serif;}
+h1, h2 	{font-size: 25px;line-height: 25px;font-family: 'Oswald-Medium', serif; color: #2da9e1}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 

@@ -1,0 +1,452 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Agent in Sidebar Variation</title>
+<!---css-->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!---css-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Real Space Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<!-- FlexSlider -->
+	 <script src="js/jquery.flexslider.js"></script>
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+			<script>
+			// Can also be used with $(document).ready()
+				$(window).load(function() {
+				$('.flexslider').flexslider({
+				animation: "slide",
+				controlNav: "thumbnails"
+				});
+				});
+			</script>
+			<!-- //FlexSlider-->
+</head>
+<body>
+<!--header-->
+<div class="mainheader">
+	<div class="container">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="navbar-mainheader">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<h1 class="navbar-brand"><a  href="index.html"><img class="headlogo" src="images/logo_small.png"></a></h1>
+			</div>
+			<!--navbar-header-->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<!--<li><a href="index.html" class="active">Home</a></li>-->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Book Now<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-4">
+							<div class="row">
+								<div class="col-sm-3">
+									<h4>Book</h4>
+									<iframe src="http://app.littlehotelier.com/properties/edenaluxuryapartmentsdirect/widget?number_of_days=12" height="170" width="800" frameborder="1" scrolling="no" allowtransparency="true">
+									</iframe>
+
+								</div></center>
+								<div id="top-destination">
+
+									<ul class="multi-column-dropdown">
+										<!---->
+
+									</ul>
+								</div>
+
+
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown grid">
+						<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">Collections<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-4">
+							<div class="row">
+								<div class="col-sm-3">
+									<h4>All Collection</h4>
+									<ul class="multi-column-dropdown">
+										<li><a class="list" href="collections.html">Edena Urban</a></li>
+										<li><a class="list" href="collections.html">Edena Park</a></li>
+										<li><a class="list" href="collections.html">Edena Collection</a></li>
+
+									</ul>
+								</div>
+
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown grid">
+						<a href="aboutus.html" > About Us </a>
+
+					</li>
+					<li class="dropdown grid">
+						<a href="contact.html" >Contact Us</a>
+
+					</li>
+				</ul>
+				<!--/.navbar-collapse-->
+			</div>
+			<!--//navbar-header-->
+		</nav>
+		<div class="header-info">
+			<div class="header-right search-box">
+				<a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+				<div class="search">
+					<form class="navbar-form">
+						<input type="text" class="form-control">
+						<button type="submit" class="btn btn-default" aria-label="Left Align">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="header-right login">
+				<a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+				<div id="loginBox">
+					<form id="loginForm">
+						<fieldset id="body">
+							<fieldset>
+								<label for="email">Email Address</label>
+								<input type="text" name="email" id="email">
+							</fieldset>
+							<fieldset>
+								<label for="password">Password</label>
+								<input type="password" name="password" id="password">
+							</fieldset>
+							<input type="submit" id="login" value="Sign in">
+							<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
+						</fieldset>
+						<p>New User ? <a class="sign" href="account.html">Sign Up</a> <span><a href="#">Forgot your password?</a></span></p>
+					</form>
+				</div>
+			</div>
+
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- end header -->
+<!-- Left block -->
+<div class="content">
+	<div class="container room-container">
+		<!-- <div style="background: black; height: 10px; width: 100%;z-index: 100;"></div> -->
+		<div class="reservation visible-lg">
+			<ul>
+				<li style="list-style-type:none;">
+					<div class="section_room" style="width: 300px">
+						<select id="country" onchange="change_country(this.value)" class="frm-field required">
+							<option value="null">Select room</option>
+							<option value="null" >Edena Urban</option>
+							<option value="AX">Edena Park</option>
+							<option value="AX">Edena Collection</option>
+						</select>
+					</div>
+				</li>
+				<li style="list-style-type:none;">
+					<div class="book_date" >
+						<input type="text" name="daterange" value="select date" />
+
+					</div>
+				</li>
+				
+				<li style="list-style-type:none;">
+					<!--start section_room-->
+					<div class="section_room" style="width: 150px;"">
+						<select id="country" onchange="change_country(this.value)" class="frm-field required">
+							<option value="null">Guests</option>
+							<option value="null">1</option>
+							<option value="AX">2</option>e
+							<option value="AX">3</option>
+							<option value="AX">2</option>
+							<option value="AX">4</option>
+						</select>
+					</div>
+				</li>
+				<li style="list-style-type:none;">
+					<div class="date_btn">
+						<form>
+							<input type="submit" value="book now" />
+						</form>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="price">
+			<h6>$370/NIGHT    4NIGHTS, 1480 TOTAL</h6>
+		</div>
+
+		<div class="center-header">
+			<h2> GREAT HOME WITH GREAT VIEWS.</h2>
+		</div>
+		<!-- left content-->
+		<div class="content">
+			<div class="properties-section">
+				<div class="container-fluid">
+					<div class="col-md-9 properties-left">
+
+
+						<div style="width: 50%; float: left; display: inline;">
+							<div class="additional-details">
+								<ul>
+									<!--<li><span>EDENA URBAN</span></li>-->
+									<li><span>Num of Bedroom</span> : 2</li>
+									<li><span>Num of Bathrooms</span> : 2</li>
+									<!--<li><span>3 Bedrooms</span> </li>-->
+									<!--<li><span>About this Place</span> : Great Location</li>-->
+								</ul>
+							</div>
+						</div>
+
+						<div style="width: 50%; float: right; display: inline;">
+							<div class="additional-details">
+								<ul>
+									<li><span>Num of Guests</span> : 2</li>
+									<li><span>Extra Guests Allowed</span> : 2 </li>
+									<!--<li><span>Extra Guests Allowed</span> : 2 </li>-->
+									<!--<li><span>Party Allowed</span> : Yes</li>-->
+									<!--<li><span>3 Bedrooms</span> </li>-->
+									<!--<li><span>About this Place</span> : Great Location</li>-->
+								</ul>
+							</div>
+						</div>
+						<div class="additional-details">
+							<div class="bline"></div>
+								<h2>Description</h2>
+								<p>Park residence 1 is a 1 bedroom, 1 bathroom unit that can accommodate up to 4 people (sofa included).It is the best location of our themes, being a 5 second walk to the Boston Common Park as well as being central to many restaurants, cafes and shopping centres.
+									The building itself is a beautifully architectured historical site with 24 hr security. The room has stunning views of the city, a fully equipped kitchen (inc. water purifier), TV with Netflix subscription and Xbox. All of this and much more is what you have to look forward to when staying in Park 1.</p>
+								<div class="bline"></div>
+								<h2>NEIGHBOURHOODS</h2>
+								<P>Urban residences are in the 0.5 mile radius of downtown Boston. Boston downtown and immediate surrounds are home to a constant hustle and bustle of life and activity. You’ll never be without somewhere to eat, shop or sight-see.
+
+									Medical centres are closeby, such as, Tufts Hospital (biggest medical center in centre of Boston). Convenient pharmacies and doctors offices are also within a close distance.
+
+									Shopping options are in the multitudes with shopping centres such as Macy’s and TJMaxx nearby.
+									Designer shops doors are open with ranges of the newest fashions, including (but not limited to) Hermes, Bottega Venetta, etc
+
+									Many international cuisines options are available at a short walking distance from your stay, some of the best Mexican, Middle Eastern, European and Asian restaraunts await your hungry mouths.
+
+									Getting Around is a breeze with South Station (main transportation hub for Amtrak and regional buses) only a few minutes walk away and it’s an easy 20 minute drive to and from Boston Logan airport.</P>
+							<div class="bline"></div>
+							<h2>Information Regarding This Room</h2>
+							<p>2 Bedrooms (1 King, 1 Queen), accommodates up to 6 guests (including sofa-bed)</p>
+							<p>New Listing, Price Shown are 30% Discounted</p>
+							<li>- Excellent amenities (gym, pool, kid's room, In-building cafe, bars & specialty restaurants )</li>
+							<li>- 5 star hotel services</li>
+							<li>- 24/7 Concierge service</li>
+							<li>- Subway entrance around the corner</li>
+							<li>- Bicycle rental outside the building</li>
+							<li>- Pet friendly</li>
+							<li>- Whole Foods in the building</li>
+							<p>(promotion offered can be only combined one time per booking)</p>
+							<p>The space</p>
+							<p>professional spa available from $99 (request for availability)</p>
+							<li>- 5 star hotel services</li>
+							<li>- Stunning Boston Urban View (french window)</li>
+							<li>- Full Brand New Kitchen (w/ almost everything)</li>
+							<li>	- Super High Speed Internet</li>
+							<li>- 65 inch large LED TV</li>
+							<li>	- Free Netflix and Chill</li>
+							<div class="bline"></div>
+							<h2>Other Details</h2>
+							<p>Great location studio Apt in center of Boston, where you can enjoy diversity of restaurants.</p>
+							<div class="bline"></div>
+							<h2>Guest Access</h2>
+							<li>Free access to the entire floor of gym</li>
+							<li>Free access to Library</li>
+							<li>Free access to the swimming pool</li>
+							<li>	Free access to the terrace & roof top.</li>
+							<div class="bline"></div>
+							<h2>House Rule</h2>
+							<p>- Guest must complete checkin process to gain access of the room. Guest who refuse to complete the checkin process will be denied entry</p>
+							<li>- Host may check ID upon arrival. Failure to provide government-issued ID may result in cancellation of reservation.</li>
+							<li>- Pets are not allowed. If found will result $2500/day deep cleaning fee</li>
+							<li>-  Any additional guests beyond the 4th guests will be charged at an extra $150 for 1 night</li>
+							<li>- Please Leave no marks nor stains on wall and living room carpet; noticeable stains will result $700 cleaning fee for carpet and minimum $400 for wall damage.</li>
+							<li>	- No dragging furniture nor heavy items on wooden floor, noticeable scratches (bigger than a quarter) will result in minimum $1000 fine</li>
+							<li>- Please leave the key fob at the kitchen counter upon check-out, replacements for lost keys will be charged at $350 (only one key will be given)</li>
+							<li>	- Quiet time starts at 10pm (just not too loud that neighbor complains) 2 complaints will result $1000 penalty</li>
+							<li>- Building common area opens from 5 am - 10 pm</li>
+							<li>	- Lost/non-return parking pass will result $1,000 replacement fee.</li>
+						</div>
+
+
+						 <script>
+								$(document).ready(function() {
+								$('.popup-with-zoom-anim').magnificPopup({
+									type: 'inline',
+									fixedContentPos: false,
+									fixedBgPos: true,
+									overflowY: 'auto',
+									closeBtnInside: true,
+									preloader: false,
+									midClick: true,
+									removalDelay: 300,
+									mainClass: 'my-mfp-zoom-in'
+								});
+																								
+								});
+						</script>								  
+
+					</div>
+
+
+					<div class="col-md-5 properties-right">
+						<div class="properties-top">
+							<div class="flexslider">
+								<ul class="slides">
+									<li data-thumb="images\EdenaUrban\Edena Urban Kitchen 2.jpg">
+										<div class="thumb-image"> <img src="images\EdenaUrban\Edena Urban Kitchen 2.jpg" data-imagezoom="true" class="img-responsive"> </div>
+									</li>
+									<li data-thumb="images\EdenaUrban\Edena Urban Kitchen 2.jpg">
+										<div class="thumb-image"> <img src="images\EdenaUrban\Edena Urban Kitchen 2.jpg" data-imagezoom="true" class="img-responsive"> </div>
+									</li>
+									<li data-thumb="images/EdenaUrban/Edena Urban Living Room.jpg">
+										<div class="thumb-image"> <img src="images/EdenaUrban/Edena Urban Living Room.jpg" data-imagezoom="true" class="img-responsive"> </div>
+									</li>
+								</ul>
+							</div>
+							<div class="google-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25314.705189576223!2d-122.04163718289803!3d37.52352544242605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbee225b54b73%3A0xd9e9e38c14446fd!2sReal+Estate+Residential+Homes!5e0!3m2!1sen!2sin!4v1453458032800" ></iframe>
+							</div>
+
+
+									
+								<div class="clearfix"></div>
+
+							</div>
+
+							<div style="display: inline; float: left; width: 50%;">
+								<ul class="tags">
+									<li class="tag">2 beds</li>
+									<li class="tag">2 bedrooms</li>
+									<li class="tag">room with view</li>
+									<li class="tag">great location</li>
+								</ul>
+							</div>
+							<div style="display: inline; float: right; width: 50%;">
+								<p>Real Estate Residential Homes, Dublin, CA 94568</p>
+							</div>
+							
+
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<center><div class="endline"></div></center>
+		<section id="follow-us">
+			<div class="container">
+				<div class="text-center height-contact-element">
+					<ul class="list-unstyled list-inline list-social-icons">
+						<li> <a href="#">Privacy Policy</a></li>
+						<li> <a href="#">Terms of Use</a></li>
+						<li> <a href="#">Careers</a></li>
+						<li> <a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="text-center height-contact-element">
+					<ul class="list-unstyled list-inline list-social-icons">
+						<li class="active"><img class="img-responsive displayed" src="images/i1.png"></a></li>
+						<li class="active"><img class="img-responsive displayed" src="images/i2.png"></a></li>
+						<li class="active"><img class="img-responsive displayed" src="images/i3.png"></a></li>
+						<li class="active"><img class="img-responsive displayed" src="images/i4.png"></a></li>
+
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="container">
+				<div class="row myfooter">
+					<div style="text-align: center">
+						Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http:edenaresorts.com/">Edena</a>
+					</div></div>
+			</div>
+	</div>
+	</footer>
+			
+<!-- login -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body real-spa">
+							<div class="login-grids">
+								<div class="login">
+									
+									<div class="login-right">
+										<form>
+											<h3>Login</h3>
+											<input type="text" value="Enter your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your Email';}" required="">	
+											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<h4><a href="#">Forgot password</a> / <a href="#">Create new password</a></h4>
+											<div class="single-bottom">
+												<input type="checkbox"  id="brand" value="">
+												<label for="brand"><span></span>Remember Me.</label>
+											</div>
+											<input type="submit" value="Login Now" >
+										</form>
+									</div>
+																
+								</div>
+								<p>By logging in you agree to our <a href="#">Terms</a> and <a href="#">Conditions</a> and <a href="#">Privacy Policy</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //login -->
+			<!-- Register -->
+			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body real-spa">
+							<div class="login-grids">
+								<div class="login">
+									<div class="login-right">
+										<form>
+											<h3>Register </h3>
+											<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+											<input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+											<input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
+											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											
+											<input type="submit" value="Register Now" >
+										</form>
+									</div>
+									<div class="clearfix"></div>								
+								</div>
+								<p>By logging in you agree to our <a href="#">Terms</a> and <a href="#">Conditions</a> and <a href="#">Privacy Policy</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //Register -->
+
+
+<script src='js/mapfluid.js'></script>
+
+</body>
+</html>
