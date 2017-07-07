@@ -1,4 +1,4 @@
-var mymap = L.map('hotelmap').setView([42.308, -71.137], 12);
+var mymap = L.map('hotelmap').setView([42.308, -71.137], 13);
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 20,
@@ -11,29 +11,50 @@ var mymap = L.map('hotelmap').setView([42.308, -71.137], 12);
 
 var popup1 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'> <p>599/Night</p>")
+    .setContent("<img src='images/2.jpg'> <p>599/Night</br>300 Harrison Ave</p>")
     .openOn(mymap);
 
 var popup2 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/1.jpg'> <p>699/Night</p>")
+    .setContent("<img src='images/1.jpg'> <p>699/Night</br>62 Boylston Street</p>")
     .openOn(mymap);
 
 var popup3 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'> <p>799/Night</p>")
+    .setContent("<img src='images/2.jpg'> <p>799/Night</br>1 Franklin Street,</p>")
+    .openOn(mymap);
+
+var popup4 = L.popup({closeButton: false})
+    .setLatLng([0, 0])
+    .setContent("<img src='images/2.jpg'> <p>799/Night</br>99 Kneeland St</p>")
+    .openOn(mymap);
+
+var popup5 = L.popup({closeButton: false})
+    .setLatLng([0, 0])
+    .setContent("<img src='images/2.jpg'> <p>799/Night</br>660 Washington Street</p>")
     .openOn(mymap);
 
 
 
-    L.marker([42.363, -71.0599]).addTo(mymap)
+
+
+
+    L.marker([42.3460853, -71.0650603]).addTo(mymap)
 		.bindPopup(popup1).openPopup();
 
-    L.marker([42.308, -71.137]).addTo(mymap)
+    L.marker([42.3522, -71.06658]).addTo(mymap)
 		.bindPopup(popup2).openPopup();
 
-    L.marker([42.3546624, -71.060]).addTo(mymap)
-		.bindPopup(popup2).openPopup();
+    L.marker([42.35631, -71.06164]).addTo(mymap)
+		.bindPopup(popup3).openPopup();
+
+	L.marker([42.349605, -71.062457]).addTo(mymap)
+		.bindPopup(popup4).openPopup();
+
+	L.marker([42.3518415,-71.0646243]).addTo(mymap)
+		.bindPopup(popup5).openPopup();
+
+
 
 	// L.circle([42.308, -71.137], 500, {
 	// 	color: 'red',
