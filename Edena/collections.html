@@ -32,7 +32,7 @@
 </head>
 
 
-<body>s
+<body>
 <!--header-->
 	<div class="mainheader">
 		<div class="container">
@@ -44,7 +44,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1 class="navbar-brand"><a  href="index.html"><img class="headlogo" src="images/logo_small.png"></a></h1>
+					<h1 class="navbar-brand visible-lg"><a  href="index.html"><img class="headlogo" src="images/logo_small.png"></a></h1>
 				</div>
 				<!--navbar-header-->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -145,11 +145,12 @@
 						<ul>
 							<li style="list-style-type:none;">
 								<div class="section_room" style="width: 300px">
-									<select id="country" onchange="change_country(this.value)" class="frm-field required">
-										<option value="null">Select Room</option>
-										<option value="null" >Edena Urban</option>
-										<option value="AX">Edena Park</option>
-										<option value="AX">Edena Collection</option>
+									<select id="options">
+										<option value="idxpres-grids">All Rooms</option>
+										<option value="edena-urban" >Edena Urban</option>
+										<option value="edena-park">Edena Park</option>
+										<option value="edena-collection">Edena Collection</option>
+										
 									</select>
 								</div>
 							</li>
@@ -188,7 +189,7 @@
 					
 						<div class="col-md-6 col-sm-12 hotel-list">
 
-							<div class="idxpres-grids">
+							<div class="idxpres-grids edena-urban">
 								<div class="idxpres1">
 									<div class="idxpres-top">
 										<a href="urban.html"><img src="images/EdenaUrban/Edena%20Urban%20-%20Living%20Room.jpg" class="img-responsive" alt="/"></a>
@@ -211,7 +212,7 @@
 								</div>
 							</div>	
 
-							<div class="idxpres-grids">
+							<div class="idxpres-grids edena-park">
 								<div class="idxpres1">
 									<div class="idxpres-top">
 										<a href="park.html"><img src="images/EdenaPark/Edena%20Park%20-%20Living%20Room.JPG" class="img-responsive" alt="/"></a>
@@ -232,28 +233,8 @@
 									<div class="clearfix"></div>
 								</div>
 							</div>	
-							<div class="idxpres-grids">
-								<div class="idxpres1">
-									<div class="idxpres-top">
-										<a href="park.html"><img src="images/EdenaPark/Edena%20Park%20-%20Bedroom.JPG" class="img-responsive" alt="/"></a>
-									</div>
-									<div class="idxpres-down">
-										<h5>62 Boyslton St, Suite 1, Boston, MA 02116</h5>
-										<h6>499/NIGHT</h6>
-										<div class="idxpresright-bottom">
-											<ul class="class=tags">
-												<li class="tag">2 beds, 2 bedrooms</li>
-												<li class="tag">2 beds, 2 bedrooms</li>
-												<li class="tag">2 beds, 2 bedrooms</li>
-												<li class="tag">2 beds, 2 bedrooms</li>
-											</ul>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>	
-							<div class="idxpres-grids">
+							
+							<div class="idxpres-grids edena-collection">
 								<div class="idxpres1">
 									<div class="idxpres-top">
 										<a href="collections.html"><img src="images/1.jpg" class="img-responsive" alt="/"></a>
@@ -278,7 +259,7 @@
 
 						<div class="col-md-6 col-xs-12 hotel-list" >
 
-							<div class="idxpres-grids">
+							<div class="idxpres-grids edena-collection">
 								<div class="idxpres1">
 									<div class="idxpres-top">
 										<a href="collection.html"><img src="images/EdenaUrban/Edena%20Urban%20-%20Living%20Room.jpg" class="img-responsive" alt="/"></a>
@@ -300,7 +281,7 @@
 								</div>
 							</div>	
 
-							<div class="idxpres-grids">
+							<div class="idxpres-grids edena-collection">
 								<div class="idxpres1">
 									<div class="idxpres-top">
 										<a href="collection.html"><img src="images/EdenaPark/Edena%20Park%20-%20Living%20Room.JPG" class="img-responsive" alt="/"></a>
@@ -326,7 +307,7 @@
 									<div class="clearfix"></div>
 								</div>
 							</div>	
-							<div class="idxpres-grids">
+							<div class="idxpres-grids edena-collection">
 								<div class="idxpres1">
 									<div class="idxpres-top">
 										<a href="collection.html"><img src="images/EdenaPark/Edena%20Park%20-%20Bedroom.JPG" class="img-responsive" alt="/"></a>
@@ -334,32 +315,6 @@
 									<div class="idxpres-down">
 										<h5>660 Washington St, Suite 1, Boston MA</h5>
 										<h6>499/NIGHT</h6>
-										<div class="idxpresright-bottom">
-											<ul class="class=tags">
-												<li class="tag">2 beds, 2 bedrooms</li>
-												<li class="tag">2 beds, 2 bedrooms</li>
-												<li class="tag">2 beds, 2 bedrooms</li>
-												<li class="tag">2 beds, 2 bedrooms</li>
-											</ul>
-											<!--<ul class="bottom-right">-->
-											<!--<li>Home size: 1,950 sq ft</li>-->
-											<!--<li>Year built: 1969</li>-->
-											<!--<li>Days on market: 1,957</li>-->
-											<!--</ul>-->
-											<div class="clearfix"></div>
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>	
-							<div class="idxpres-grids">
-								<div class="idxpres1">
-									<div class="idxpres-top">
-										<a href="#"><img src="images/1.jpg" class="img-responsive" alt="/"></a>
-									</div>
-									<div class="idxpres-down">
-										<h5>100 Institute Road., Boston</h5>
-										<h6>399/NIGHT</h6>
 										<div class="idxpresright-bottom">
 											<ul class="class=tags">
 												<li class="tag">2 beds, 2 bedrooms</li>
@@ -489,6 +444,7 @@
 			</div>
 			<!-- //Register -->
 
+
 <script src="js/jquery-ui.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
@@ -497,6 +453,7 @@
    crossorigin=""></script>
 <script src='js/map.js'></script>
 <script src="js/daterangepicker.js"></script>
+<script src="js/filter.js"></script>
 <script type="text/javascript">
 $(function() {
     $('input[name="daterange"]').daterangepicker();

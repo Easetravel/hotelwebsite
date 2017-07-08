@@ -4495,7 +4495,7 @@ select option{
 .headlogo {
     height: 150%;
     width: 80%;
-    display: inline-block;
+    display: inline;
 
 }
 
