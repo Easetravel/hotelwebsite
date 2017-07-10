@@ -35,7 +35,7 @@ p{
     margin:0;
 }
 ul,label{
-    margin:10px;
+/*    margin:10px;*/
     padding:10px;
 }
 body a:hover{
@@ -54,6 +54,8 @@ body a:hover{
 /*    overflow: hidden;*/
     position: fixed;
     top: 0;
+    text-transform:uppercase;
+    font-family: 'RobotoSlab-Regular';
 }
 
 nav.navbar.navbar-default {
@@ -651,7 +653,11 @@ ul.rating li a:hover, .price_single a:hover, ul.size li a:hover {
     background-color: rgba(255, 255, 255, 0.21);
     color: #2da9e1;
 }
+
 /*--//subscribe--*/
+.myfooter{
+    margin-bottom: 43px;
+}
 /*--footer--*/
 .footer {
     padding: 5em 0;
@@ -3364,7 +3370,7 @@ span.glyphicon.glyphicon-map-marker {
 .content-box {}
 .content-box .wrap-box {padding:30px 10px; position: relative;}
 .content-box .header {text-align: center; margin: 30px 0; }
-.content-box .header h2{font-size: 34px; color:#2da9e1;font-weight: 500;letter-spacing: 3px;font-family: 'Oswald-ExtraLight', serif;
+.content-box .header h2{font-size: 87px; color:#2da9e1;font-weight: 500;letter-spacing: 3px;font-family: 'Oswald-ExtraLight', serif;
 }
 .content-box .header p{margin-top: 30px;}
 .content-box .header.wrapper{padding: 5px 30px; display: inline-block;}
@@ -3379,7 +3385,7 @@ span.glyphicon.glyphicon-map-marker {
 .content-box.box-1 {}
 .content-box.box-1  img{max-height: 300px;width:100%;border-top-left-radius: 8px;border-top-right-radius: 8px;}
 .content-box.box-1 .post{display: inline-block;background-color:#fff;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
-.content-box.box-1 h3 {color: #2da9e1; margin: 20px; text-align: center; font-family: 'Oswald-Medium', serif;}
+.content-box.box-1 h3 {color: #2da9e1;font-size: 44px; margin: 20px; text-align: center; font-family: 'RobotoSlab-Regular', serif;}
 .content-box.box-1 .upload { padding: 5px 15px 15px 0px;border-top: 1px;font-size: 15px;color: #555;}
 .content-box.box-1 .upload:hover {background : #DDD;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;}
 .content-box.box-1 .upload a{ color: #ffffff;font-weight: bold;margin-bottom: 2em;}
@@ -4189,6 +4195,7 @@ select {
     margin: 5px 0;
     background: #ffffff;
     border: 1px solid #DFDFDF;
+    font-family: 'RobotoSlab-light', serif;
     box-shadow: inset 0 0 2px rgb(236, 236, 236);
     -webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
     -moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
@@ -4241,7 +4248,7 @@ select option{
 
 /**Leaflet Map**/
 #hotelmap {
-    margin-top: 200px;
+    margin-top: 218px;
     /*margin-left: -100px;*/
     height:100%;
     width: 45%;
@@ -4420,6 +4427,7 @@ select option{
 
 }
 .tag {
+    font-size: 12px!important;
   background: rgb(125,125,125);
   border-radius: 3px 0 0 3px;
   color: #fff;
@@ -4431,6 +4439,7 @@ select option{
   margin: 0 10px 10px 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
+  font-family: 'RobotoSlab-Bold';
 }
 
 
@@ -4569,6 +4578,7 @@ select option{
 
     
 .reservation{
+    font-family: 'RobotoSlab-light', serif;
    padding-left: 1.83%;
    padding-top:1%; 
     margin: 1 auto;
