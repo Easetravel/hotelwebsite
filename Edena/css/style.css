@@ -3443,7 +3443,7 @@ h1, h2 	{font-size: 25px;font-family: 'Oswald-Medium', serif; color: #2da9e1}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
-p{margin: 30px 0;line-height: 25px;color: #666; font-family: 'RobotoSlab-Regular', serif; font-size: 19px;}
+p{margin: 30px 0;line-height: 25px;color: black; font-family: 'RobotoSlab-light', serif; font-size: 16px;}
 header .top-bar {background-color: lightblue;}
 header .top-bar .wrap-top{}
 
@@ -4680,6 +4680,13 @@ select option{
     width: 100%;
     margin-right: 0;
     padding-top: 10px;
+
+}
+
+.details li{
+    line-height: 25px;color: black;
+     font-family: 'RobotoSlab-light', serif; 
+     font-size: 16px;
 
 }
 .details h2{
