@@ -3439,11 +3439,12 @@ header{
     height: 750px;
 }
 h1,h2,h3,h4,h5,h6 {display: block;}
-h1, h2 	{font-size: 25px;font-family: 'Oswald-Medium', serif; color: #2da9e1}
+h1{font-size: 32px;font-family: 'Oswald-ExtraLight', serif; color: #2da9e1;}
+h2 	{font-size: 33px;font-family: 'Oswald-Regular', serif; color: #2da9e1;}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
-p{margin: 30px 0;line-height: 25px;color: black; font-family: 'RobotoSlab-light', serif; font-size: 16px;}
+p{margin: 30px 0;line-height: 25px;color: black; font-family: 'RobotoSlab-Regular', serif; font-size: 16px;}
 header .top-bar {background-color: lightblue;}
 header .top-bar .wrap-top{}
 
@@ -3465,7 +3466,7 @@ header .wrap-header ul a {float:left;color: #DDD;margin-left: 20px; text-transfo
 header .wrap-header ul p {float:left;color: #DDD;margin-left: 20px; text-transform: uppercase;font-size: 16px;font-weight: bold;}
 header .wrap-header a:hover{color: lightblue;}
 
-header .wrap-header .search-form{background-color: rgba(220, 220, 220, 0.9);padding: 15px 18px;margin: 60px auto 50px auto;display:inline-block;}
+header .wrap-header .search-form{background-color: rgba(220, 220, 220, 0.9);padding: 15px 18px;margin: 60px auo 50px auto;display:inline-block;}
 
 header #search {}
 
@@ -3921,9 +3922,10 @@ ul.bottom-right {
     margin-top: 3em;
 }
 .additional-details ul li span {
-    font-weight:600;
     color: #000;
-    font-family: 'RobotoSlab-Regular', serif;
+    font-family: 'RobotoSlab-Bold', serif;
+    font-size: 19px;
+    line-height: 33px;
 }
 .additional-details ul li:hover {
     background: #eee;
@@ -4501,10 +4503,10 @@ select option{
 
 }
 .center-header h2{
-    font-size: 4vw;
+    font-size: 4.5vw;
     margin:0 auto;
     text-align: center;
-    font-family: 'Oswald-Medium', serif;
+    font-family: 'Oswald-ExtraLight', serif;
 
     
 }
@@ -4684,13 +4686,20 @@ select option{
 }
 
 .details li{
-    line-height: 25px;color: black;
-     font-family: 'RobotoSlab-light', serif; 
+    line-height: 33px;color: black;
+     font-family: 'RobotoSlab-Regular', serif;
      font-size: 16px;
 
 }
 .details h2{
     margin-bottom: 10px;
+}
+
+.details p{
+    font-family: RobotoSlab-light;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
 }
 .pure-container{
     margin: 0;
