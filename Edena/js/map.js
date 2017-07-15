@@ -11,27 +11,27 @@ var mymap = L.map('hotelmap').setView([42.308, -71.137], 13);
 
 var popup1 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'> <p>599/Night</br>300 Harrison Ave</p>")
+    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 var popup2 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/1.jpg'> <p>699/Night</br>62 Boylston Street</p>")
+    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 var popup3 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'> <p>799/Night</br>1 Franklin Street,</p>")
+    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 var popup4 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'> <p>799/Night</br>99 Kneeland St</p>")
+    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 var popup5 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'> <p>799/Night</br>660 Washington Street</p>")
+    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 
