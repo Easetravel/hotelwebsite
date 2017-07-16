@@ -3634,6 +3634,7 @@ a.button:hover {
     display: inline-block;
     background-color: #9da1a2 ;
     margin-top: 70px;
+    margin-bottom: 50px;
 
 }
 a.more:hover{
@@ -4677,6 +4678,10 @@ select option{
 .space img{
    width: 35px;
 }
+.space {
+    padding-left: 0px;
+
+}
 
 .details{
     width: 100%;
@@ -4711,4 +4716,7 @@ select option{
 
 .header-booking{
 
+}
+.social-icons li{
+    margin: 20px;
 }
