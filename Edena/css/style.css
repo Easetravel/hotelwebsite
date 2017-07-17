@@ -3854,6 +3854,7 @@ a.more:hover{
     padding: 0 1em;
     color: #fff;
     font-family: 'RobotoSlab-Bold', serif;
+    margin-top: 0.4em;
 }
 .idxpresright-bottom {
     margin-top: 1.5em;
@@ -4722,5 +4723,5 @@ select option{
 }
 
 .active-icon{
-    margin: 20px;
+    margin: 8px;
 }
