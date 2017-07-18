@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
-	<!-- Custom Theme files -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- //Custom Theme files -->
-	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<title>Contact</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Hotel, edenaresorts, edenahotel, boston hotel" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/moment.min.js"></script>
+<!--js-->
 
-	<!-- js -->
-	<script src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-	<!-- //js -->
-	<!-- cart -->
-	<script src="js/simpleCart.min.js"> </script>
-	<!-- cart -->
+<!-- Include Date Range Picker -->
+<link rel="stylesheet" type="text/css" href="css/daterangepicker.css" />
+<!--fonts-->
+<!--<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='http://fonts.useso.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='http://fonts.useso.com/css?family=Righteous' rel='stylesheet' type='text/css'>-->
+
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	
+<!-- pop-up -->
+<!-- leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+   integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+   crossorigin=""/>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
 <!--header-->
-<div class="mainheader">
-	<div class="container head-container">
-		<!-- 		<div style="height: 85px; width: 10%;background-color: red; display: inline-block;"></div>
-                <div style="height: 85px; width: 30%;background-color: green; display: inline-block;margin-right: 100px;"></div> -->
-		<div class="mylogo col-sm-3 col-xs-6 "><a  href="index.html"><img class="headlogo" src="images/logo_small.png"></a></div>
+	<div class="mainheader">
+		<div class="container head-container">
+<!-- 		<div style="height: 85px; width: 10%;background-color: red; display: inline-block;"></div>
+		<div style="height: 85px; width: 30%;background-color: green; display: inline-block;margin-right: 100px;"></div> -->
+		<div class="mylogo col-sm-3 col-xs-6 "><a  href="index.html"><img class="headlogo" src="images/logo_small.png"></a></div>	
 		<div class="navblock col-sm-9 col-xs-6">
-			<nav class="navbar navbar-default" role="navigation" style="float: right;">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-
+			<nav class="navbar navbar-default" role="navigation" style="float: right;">	
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+			</button>
+					
+	
 				<!--navbar-header-->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">	
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Book Now<b class="caret"></b></a>
 							<ul class="dropdown-menu multi-column columns-4">
@@ -49,12 +59,12 @@
 										<h4>Book</h4>
 										<iframe src="http://app.littlehotelier.com/properties/edenaluxuryapartmentsdirect/widget?number_of_days=7" height="240px" width="700px" frameborder="1" scrolling="no" allowtransparency="true">
 										</iframe>
-
-									</div>
-									<div id="top-destination">
+  
+  									</div>
+  									<div id="top-destination">
 
 										<ul class="multi-column-dropdown">
-
+										
 
 										</ul>
 									</div>
@@ -64,17 +74,17 @@
 							</ul>
 						</li>
 
-						<li class="dropdown grid">
+					   <li class="dropdown grid">
 							<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">ROOM TYPES<b class="caret"></b></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="row">
 									<div class="col-sm-12">
 										<h4>All TYPES</h4>
 										<ul class="multi-column-dropdown">
-											<li><a class="list" href="collections.html">Edena Collection</a></li>
+										<li><a class="list" href="collections.html">Edena Collection</a></li>
 											<li><a class="list" href="collections.html">Edena Urban</a></li>
 											<li><a class="list" href="collections.html">Edena Park</a></li>
-
+											
 
 										</ul>
 									</div>
@@ -91,16 +101,15 @@
 
 						</li>
 					</ul>
-
+					
 				</div>
-
+				
 			</nav>
+			</div>
 		</div>
-	</div>
-</div>
+		</div>
 
 <!-- end header -->
-
 
 	<!--contact-->
 	<div class="contact">
@@ -112,25 +121,18 @@
 				<h5>We would love to hear from you!</h5>
 				<p>If you have any questions we are timely in our response and aim to deliver a high-quality service. If you have any feedback for us, whether it’s about our vacancies or site, we also would love to hear from you.</p>
 			</div>
-			<div class="address">
-				<div class="col-md-4 address-grids">
-					<h4>Address :</h4>
-					<ul>
-						<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>1 Franklin St, Unit 3104, Boston MA 02110</p>
-
-					</ul>
-				</div>
-				<!--<div class="col-md-4 address-grids">-->
-				<!--<h4>Contact no :</h4>-->
-				<!--<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+2 800 544 6035</p>-->
-				<!--<p><span class="glyphicon glyphicon-print" aria-hidden="true"></span>+2 100 889 9466</p>-->
-				<!--</div>-->
-				<div class="col-md-4 address-grids">
-					<h4>Email :</h4>
-					<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:service@edenaresorts.com">service@edenaresorts.com</a></p>
+			
+				<div class="col-md-5 col-xs-12">
+					<h4>Address</h4>
+					<p><span class="glyphicon glyphicon-bell"></span>1 Franklin St, Boston MA 20110</p>
 				</div>
 				<div class="clearfix"> </div>
-			</div>		
+				<div class="col-md-5 col-xs-12">
+					<h4>Email</h4>
+					<p><span class="glyphicon glyphicon-envelope"></span>service@edenaresorts.com</p>
+				</div>
+				<div class="clearfix"> </div>
+					
 			<div class="contact-form">
 				<h4>Contact form</h4>
 				<form>
@@ -145,37 +147,36 @@
 	</div>
 	<!--//contact-->
 <!--footer-->
-<center><div class="endline"></div></center>
-<section id="follow-us">
-	<div class="container">
-		<div class="text-center height-contact-element">
-			<ul class="list-unstyled list-inline list-social-icons social-icons">
-				<li> <a href="terms.html" class="footer-word">Privacy Policy</a></li>
-				<li> <a href="#" class="footer-word">Terms of Use</a></li>
-				<li> <a href="#" class="footer-word">Careers</a></li>
-				<li> <a href="contact.html" class="footer-word">Contact Us</a></li>
-			</ul>
-		</div>
-		<div class="text-center height-contact-element">
-			<ul class="list-unstyled list-inline list-social-icons">
-				<li class="active active-icon"><img class="img-responsive grey-image" src="images/i1.png"></a></li>
-				<li class="active active-icon"><img class="img-responsive grey-image" src="images/i2.png"></a></li>
-				<li class="active active-icon"><img class="img-responsive grey-image" src="images/i3.png"></a></li>
-
-			</ul>
-		</div>
-	</div>
-</section>
-
-<footer id="footer">
-	<div class="container">
-		<div class="row myfooter">
-			<div style="text-align: center; color: grey;">
-				Copyright Edena All Rights Reserved
+	<center><div class="endline"></div></center>
+	<section id="follow-us">
+		<div class="container">
+			<div class="text-center height-contact-element">
+				<ul class="list-unstyled list-inline list-social-icons social-icons">
+					<li> <a href="terms.html" class="footer-word">Privacy Policy</a></li>
+					<li> <a href="#" class="footer-word">Terms of Use</a></li>
+					<li> <a href="#" class="footer-word">Careers</a></li>
+					<li> <a href="contact.html" class="footer-word">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="text-center height-contact-element">
+				<ul class="list-unstyled list-inline list-social-icons">
+					<li class="active active-icon"><img class="img-responsive grey-image" src="images/i1.png"></li>
+					<li class="active active-icon"><img class="img-responsive grey-image" src="images/i2.png"></li>
+					<li class="active active-icon"><img class="img-responsive grey-image" src="images/i3.png"></li>
+					
+				</ul>
 			</div>
 		</div>
-	</div>
-</footer>
-<!-- end footer ----------------------------------->
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row myfooter">
+				<div style="text-align: center; color: grey;">
+					Copyright Edena All Rights Reserved
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
