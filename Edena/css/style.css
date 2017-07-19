@@ -78,8 +78,7 @@ body a:hover{
 /*    overflow: hidden;*/
     position: fixed;
     top: 0;
-    text-transform:uppercase;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Regular',serif;
 }
 
 nav.navbar.navbar-default {
@@ -4743,11 +4742,12 @@ select option{
     text-align: center;
 }
 .title-image h2{
+    padding-top: 60px;
     text-align: center;
     font-size: 87px;
     color: #2da9e1;
     font-family: 'Oswald-ExtraLight', serif;
-    padding: 0.5em;
+    padding-bottom: 80px;
 
 }
 
@@ -4761,16 +4761,36 @@ select option{
 }
 
 .title-image p{
+    width: 70%;
+    margin: 0 auto;
     text-align: justify;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'RobotoSlab-Regular', serif;
     padding: 0.5em;
+    line-height: 25px;
 
 }
+
+.poster{
+    margin-bottom: 80px;
+}
+
+.left-poster{
+    padding-left: 200px;
+}
+
+.right-poster{
+    padding-right: 200px;
+}
+
 .poster img{
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.poster a{
+    font-size: 1em;
 }
 
 .bg-cover{
@@ -4823,4 +4843,9 @@ select option{
     #sliderbtn{
     font-size: 0.5em;
     }
+}
+
+.btn-halfsize{
+    width: 200px;
+    margin: 0 auto;
 }
