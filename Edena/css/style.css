@@ -1040,7 +1040,7 @@ h2 {
     font-size: 34px;
     color: #2da9e1;
     font-weight: 500;
-    letter-spacing: 3px;
+    /*letter-spacing: 3px;*/
 }
 /*----*/
 ul.place{
@@ -3455,7 +3455,7 @@ h2 	{font-size: 33px;font-family: 'Oswald-Regular', serif; color: #2da9e1;}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
-p{margin: 30px 0;line-height: 25px;color: black; font-family: 'RobotoSlab-Regular', serif; font-size: 16px;}
+p{margin: 20px 0;line-height: 25px;color: black; font-family: 'RobotoSlab-Regular', serif; font-size: 16px;}
 header .top-bar {background-color: lightblue;}
 header .top-bar .wrap-top{}
 
@@ -4007,7 +4007,7 @@ ul.bottom-right {
     list-style: none;
     line-height: 2.5em;
     font-size: 1em;
-    border-bottom: 1px solid #BFBBBB;
+    border-bottom: 1px;
 }
 .properties-top ul {
     margin: 2em 0;
@@ -4503,7 +4503,7 @@ select option{
 }
 
 .bline {
-    width: 300px;
+    width: 400px;
     height: 1.2px;
     background-color: #000000;
     display: inline-block;
@@ -4703,11 +4703,12 @@ select option{
 }
 
 .details li{
-    line-height: 33px;color: black;
+    line-height: 25px;color: black;
      font-family: 'RobotoSlab-Regular', serif;
      font-size: 16px;
 
 }
+
 .details h2{
     margin-bottom: 10px;
 }
@@ -4718,6 +4719,8 @@ select option{
     line-height: 25px;
     color: #000;
 }
+
+
 .pure-container{
     margin: 0;
     padding: 0;
