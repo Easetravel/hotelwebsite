@@ -2,8 +2,8 @@ var fActive;
 
 function filterColor(room){
   if(fActive != room){
-    $('.idxpres-grids').filter('.'+room).slideDown();
-    $('.idxpres-grids').filter(':not(.'+room+')').slideUp();
+    $('.room-block').filter('.'+room).slideDown();
+    $('.room-block').filter(':not(.'+room+')').slideUp();
     fActive = room;
 		// $('button').removeClass("is-active");
   }
@@ -17,8 +17,8 @@ function filterColor(room){
 // 	var val = $("#myOptions option:selected").text();
 // 	filterColor(val); $(this).addClass("is-active"); });
 
-$('#options').change(function() {
-    var val = $("#options option:selected").val();
+$('#filter-tab li').click(function() {
+    var val = $(this).text();
     filterColor(val); 
     $(this).addClass("is-active");
 });

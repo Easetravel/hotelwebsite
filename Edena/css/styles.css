@@ -1,0 +1,513 @@
+
+/*********************************Font******************************/
+@font-face {
+    font-family: 'RobotoSlab-Bold';
+    src: url(../fonts/RobotoSlab-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src: url(../fonts/RobotoSlab-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab-light';
+    src: url(../fonts/RobotoSlab-light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url(../fonts/Oswald-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-ExtraLight';
+    src: url(../fonts/Oswald-ExtraLight.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url(../fonts/Oswald-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url(../fonts/Oswald-Regular.ttf) format('truetype');
+}
+
+
+
+/*********************************nav bar******************************/
+h1,h2,h3{
+    color: #2da9e1;
+}
+/*xs screen*/
+@media (max-width: 768px){
+    .headlogo{
+        width: 150px;
+    }
+
+    .reservatoin-head{
+        width: 700px;
+        height: 240px;
+    }
+
+    .dropdown-menu.columns-4 {
+        width: 600px;
+        height: 240px;
+        padding: 1em 1em;
+        right:auto;
+    }
+    .poster img {
+        width: 100%;
+    }
+    .title-image p{
+        width: 100%;
+    }
+    .expandCollapse {
+        padding-left: 10px;
+    }
+
+    .btn-mobile{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+/*larger than xs*/
+@media (min-width: 768px) {
+    .headlogo {
+        width: 200px;
+    }
+    .reservatoin-head{
+        width: 600px;
+        height: 200px;
+    }
+    .dropdown-menu.columns-4 {
+        margin-left: -200px;
+        min-width: 600px;
+        min-height: 240px;
+        padding: 1em 1em;
+        right:auto;
+    }
+    #main-nav-bar>ul{
+        padding-top: 30px;
+        font-size: 1em;
+    }
+
+    .poster img{
+        width: 70%;}
+
+    .title-image p{
+        width: 75%;
+    }
+    .expandCollapse {
+        padding-left: 13.5%;
+    }
+}
+
+.headlogo{
+    padding: 10px;
+}
+
+.mainheader{
+    background-color: white;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+
+.navbar-default .navbar-nav  li  a:hover, .navbar-default .navbar-nav  li a:focus {
+    background: #0094dd;
+    color: #fff;
+}
+
+
+.navbar .divider-vertical {
+    height: 25px;
+    margin: 10px 9px;
+    border-right: 1px solid black;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar-default .navbar-toggle{
+    background-color: white;
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #2da9e1;
+}
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+    }
+}
+
+
+/*********************************footer******************************/
+footer{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.endline{
+    width: 60%;
+    height: 1px;
+    display: inline-block;
+    background-color: #9da1a2 ;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+
+.footer-icon{
+    width: 20px;
+}
+.footer-word{
+    color: grey;
+}
+
+/*********************************index******************************/
+.title-image{
+    padding: 20px;
+    text-align: center;
+}
+.title-image h2{
+    padding-top: 60px;
+    text-align: center;
+    font-size:calc(20px + 3vw);
+    color: #2da9e1;
+    font-family: 'Oswald-ExtraLight', serif;
+    padding-bottom: 80px;
+
+}
+
+.title-image h3{
+    text-align: center;
+    font-size: 35px;
+    color: #2da9e1;
+    font-family: 'RobotoSlab-Regular', serif;
+    padding: 0.5em;
+
+}
+
+.title-image p{
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 19px;
+    font-family: 'RobotoSlab-Regular', serif;
+    padding: 0.5em;
+    line-height: 25px;
+
+}
+
+.poster{
+    margin-bottom: 80px;
+}
+
+.poster img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poster a{
+    font-size: 1em;
+}
+
+.btn-edena{
+    background-color: #2da9e1;
+    border: 1px solid #2da9e1;
+    color: white;
+}
+
+.btn-edena-ad:hover{
+    color: white;
+}
+
+.btn-edena-ad{
+    color: #2da9e1;
+    border: 2px solid #2da9e1;
+    background-color: black;
+}
+
+
+.expandCollapse {
+    text-align: center;
+    font-size: 1.25em;
+    clear: both;
+    cursor: pointer;
+    text-align: left;
+}
+
+.advertisement{
+    background-color: white;
+    position: absolute;
+    padding-left: 30px;
+    left: 20%;
+    top: 20%;
+    width: 400px;
+    height: 200px;
+    z-index : 100;
+
+}
+
+.advertisement-mobile{
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+    border-bottom: 4px solid #2da9e1;
+
+}
+
+.advertisement h3{
+    color: #2da9e1;
+    text-align: left;
+    font-size: 2.3em;
+
+
+}
+
+.advertisement p{
+    text-align: left;
+    font-size: 1em;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+
+
+/*********************************about us******************************/
+.aboutus-banner {
+    background: url(../images/s1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 450px;
+    text-align: center;
+    padding: 5em 0 0;
+}
+.aboutus-banner h2{
+    font-size: 5em;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Oswald-Medium', serif;
+    color: #fff;
+    margin-top: 2em;
+}
+
+.container h7{
+    font-size: 2em;
+    color:#000000;
+    font-family: 'Oswald-Medium', serif;
+    line-height: 60px;
+}
+
+.contact  span.glyphicon {
+    font-size: 1em;
+    color: #333;
+    margin-right: 10px;
+}
+.contact-infom p {
+    color: #000;
+    font-size: 1em;
+    margin: 1em 0 0;
+    line-height: 1.8em;
+    font-family: RobotoSlab-Regular,serif;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #333;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 1.5em;
+}
+@media (min-width: 768px) {
+    .contact-form input[type="text"], .contact-form input[type="email"] {
+        width: 33.1%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form input[type="text"], .contact-form input[type="email"] {
+        width: 100%;
+    }
+}
+
+.contact-form textarea {
+    background: #fff;
+    border: 1px solid #333;
+    width: 100%;
+    display: block;
+    height: 150px;
+    outline: none;
+    font-size: 13px;
+    color: #999;
+    resize: none;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 1em;
+}
+.contact-form .btn1 {
+    border: 2px solid #2da9e1;
+    color: #fff;
+    background: #2da9e1;
+    cursor: pointer;
+    padding: 7px 0;
+    width: 11%;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 1em 0 0;
+    font-size: 1em;
+    outline: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.contact-form button.btn1:hover {
+    background-color: #fff;
+    color: #2da9e1;
+}
+
+.contact h4{
+    font-size: 2.1em;
+    color: #2da9e1;
+    margin: 0 0 0.8em 0;
+    font-family: 'Oswald-Medium';
+}
+
+
+
+/****************************individual room****************************/
+.room-container{
+    padding: 3% 5%;
+}
+
+.center-header{
+    display: block;
+
+}
+.center-header h2{
+    font-size: 4.5vw;
+    margin:0 auto;
+    text-align: center;
+    font-family: 'Oswald-ExtraLight', serif;
+    color: #2da9e1;
+
+}
+
+.bline {
+    width: 100%;
+    height: 1.2px;
+    background-color: dimgrey;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.details{
+    width: 100%;
+    margin-right: 0;
+    padding-top: 10px;
+
+}
+
+.details li{
+    line-height: 33px;color: black;
+    font-family: 'RobotoSlab-Regular', serif;
+    font-size: 16px;
+
+}
+.details h2{
+    margin-bottom: 10px;
+}
+
+.details p{
+    font-family: RobotoSlab-light;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+}
+
+.space li{
+    list-style:none;
+}
+
+.space img{
+    width: 35px;
+}
+.space {
+    padding-left: 0px;
+
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+}
+.tag {
+    font-size: 12px!important;
+    background: rgb(125,125,125);
+    border-radius: 3px 0 0 3px;
+    color: #fff;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    font-family: 'RobotoSlab-Bold';
+}
+
+.sticky-footer{
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: red;
+}
+
+/*********************************collections******************************/
+.collections-container{
+    padding: 2% 5%;
+}
+
+#hotelmap {
+    height: 90%;
+    width: 33%;
+    position: fixed;
+
+    display: inline;
+}
+
+.leaflet-popup-content-wrapper
+{
+    border-radius:0 !important;
+
+    margin: 0 !important;
+    width: 401px;
+
+    border: 2px solid #2da9e1;
+}
+
+.leaflet-popup-content img{
+    width: 360px;
+    height: 250px;
+
+}
+
+.leaflet-popup-content h3{
+    padding-top: 10px;
+    font-family: 'Oswald-Medium';
+    font-size: 20px;
+}
+
+.leaflet-popup-content p{
+    text-align: left;
+
+}
