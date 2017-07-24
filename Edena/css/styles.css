@@ -153,16 +153,18 @@ footer{
     display: inline-block;
     background-color: #9da1a2 ;
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
 }
 
 
 .footer-icon{
-    width: 20px;
+    width: 32px;
 }
 .footer-word{
     color: grey;
+    font-family: RobotoSlab-Regular, serif;
+    font-size: 16px;
 }
 
 /*********************************index******************************/
@@ -216,6 +218,7 @@ footer{
     background-color: #2da9e1;
     border: 1px solid #2da9e1;
     color: white;
+    font-size: 1em;
 }
 
 .btn-edena-ad:hover{
@@ -224,7 +227,7 @@ footer{
 
 .btn-edena-ad{
     color: #2da9e1;
-    border: 2px solid #2da9e1;
+    border: 3px solid #2da9e1;
     background-color: black;
 }
 
@@ -261,16 +264,18 @@ footer{
 .advertisement h3{
     color: #2da9e1;
     text-align: left;
-    font-size: 2.3em;
+    font-size: 2.5em;
+    font-family: Oswald-ExtraLight,Serif;
 
 
 }
 
 .advertisement p{
     text-align: left;
-    font-size: 1em;
+    font-size: 1.3em;
     color: black;
     margin-bottom: 15px;
+    font-family: RobotoSlab-Bold, serif;
 
 }
 
@@ -408,7 +413,6 @@ footer{
 .details{
     width: 100%;
     margin-right: 0;
-    padding-top: 10px;
 
 }
 
@@ -419,7 +423,10 @@ footer{
 
 }
 .details h2{
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-family: Oswald-Regular, Serif;
 }
 
 .details p{
@@ -463,13 +470,21 @@ footer{
     -webkit-transition: color 0.2s;
     font-family: 'RobotoSlab-Bold';
 }
-
+.google-map{
+    margin-bottom: 20px;
+}
 .sticky-footer{
     position: fixed;
     bottom: 0;
     height: 40px;
     width: 100%;
     background-color: red;
+}
+.essential li{
+    color: #000;
+    font-family: RobotoSlab-Bold, serif;
+    font-size: 19px;
+    line-height: 33px;
 }
 
 /*********************************collections******************************/
@@ -510,4 +525,46 @@ footer{
 .leaflet-popup-content p{
     text-align: left;
 
+}
+.idxpresright-bottom ul{
+    padding: 0px;
+}
+/*********************************footer******************************/
+.list-inline li{
+    margin: 10px 20px;
+}
+
+/*********************************fonts******************************/
+.dropdown a{
+    font-family: RobotoSlab-Regular, serif;
+    font-size: 16px;
+    color: #000 !important;
+}
+
+.dropdown-menu a{
+    font-family: RobotoSlab-Regular, serif;
+    color: #999 !important;
+}
+
+.dropdown-menu h5{
+    font-size: 1.3em;
+    color: #2da9e1;
+    text-transform: uppercase;
+    margin-bottom: 7%;
+}
+
+h5{
+    font-size: 1.2em;
+    padding:.5em 0;
+    font-family: RobotoSlab-Bold,serif;
+    color: #000;
+    letter-spacing: 0.02em;
+}
+
+h6{
+    font-size: 1.2em;
+    padding: .5em 0;
+    font-family: 'RobotoSlab-Regular', serif;
+    color: #2da9e1;
+    letter-spacing: 0.02em;
 }
