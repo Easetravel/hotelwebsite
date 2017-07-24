@@ -114,12 +114,16 @@ h1,h2,h3{
 }
 
 
-.navbar-default .navbar-nav  li  a:hover, .navbar-default .navbar-nav  li a:focus {
+.navbar-default .navbar-nav  >li  >a:hover, .navbar-default .navbar-nav  li a:focus {
     background: #0094dd;
     color: #fff;
 }
 
-
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #2da9e1 !important;
+    text-decoration: none;
+    background-color: white;
+}
 .navbar .divider-vertical {
     height: 25px;
     margin: 10px 9px;
@@ -546,13 +550,6 @@ footer{
     color: #999 !important;
 }
 
-.dropdown-menu h5{
-    font-size: 1.3em;
-    color: #2da9e1;
-    text-transform: uppercase;
-    margin-bottom: 7%;
-}
-
 h5{
     font-size: 1.2em;
     padding:.5em 0;
@@ -560,6 +557,15 @@ h5{
     color: #000;
     letter-spacing: 0.02em;
 }
+.navbar-nav h5{
+    text-align: left;
+    font-size: 1.3em;
+    color: #2da9e1;
+    text-transform: uppercase;
+    margin: 10px 20px;
+}
+
+
 
 h6{
     font-size: 1.2em;
