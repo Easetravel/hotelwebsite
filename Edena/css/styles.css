@@ -68,6 +68,11 @@ h1,h2,h3{
         display: block;
         width: 100%;
     }
+    .btn-edena-ad{
+        display: block;
+        width:80%;
+        margin: 0 auto;
+    }
 
 }
 
@@ -477,6 +482,17 @@ footer{
 .google-map{
     margin-bottom: 20px;
 }
+@media (min-width: 991px) {
+    .google-map iframe{
+        height: 800px;
+    }
+}
+@media (max-width: 991px) {
+    .google-map iframe{
+        height: 400px;
+    }
+}
+
 .sticky-footer{
     position: fixed;
     bottom: 0;
@@ -503,6 +519,10 @@ footer{
 
     display: inline;
 }
+
+
+
+
 
 .leaflet-popup-content-wrapper
 {
