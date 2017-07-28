@@ -759,11 +759,11 @@
 
 @media (min-width: 768px) {
   .slide-container {
-    height: 600px;
+    height: 350px;
   }
 }
 @media (max-width: 768px) {
   .slide-container {
-    height: 300px;
+    height: 200px;
   }
 }

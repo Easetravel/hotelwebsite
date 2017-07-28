@@ -34,24 +34,54 @@ var popup5 = L.popup({closeButton: false})
     .setContent("<img src='images/2.jpg'><h3>5</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
+var popup6 = L.popup({closeButton: false})
+    .setLatLng([0, 0])
+    .setContent("<img src='images/2.jpg'><h3>5</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
+    .openOn(mymap);
 
 
 
 
 
-    L.marker([42.3460853, -71.0650603]).addTo(mymap)
+
+    L.circle([42.3460853, -71.0650603],{
+        color: '#2da9e1',
+        fillColor: '#2da9e1',
+        fillOpacity: 0.5,
+        radius: 200
+	}).addTo(mymap)
 		.bindPopup(popup1).openPopup();
 
-    L.marker([42.3522, -71.06658]).addTo(mymap)
+    L.circle([42.3522, -71.06658],{
+        color: '#2da9e1',
+        fillColor: '#2da9e1',
+        fillOpacity: 0.5,
+        radius: 200
+    }).addTo(mymap)
 		.bindPopup(popup2).openPopup();
 
-    L.marker([42.35631, -71.06164]).addTo(mymap)
+    L.circle([42.35631, -71.06164],{
+        color: '#2da9e1',
+        fillColor: '#2da9e1',
+        fillOpacity: 0.5,
+        radius: 200
+    }).addTo(mymap)
 		.bindPopup(popup3).openPopup();
 
-	L.marker([42.349605, -71.062457]).addTo(mymap)
+	L.circle([42.349605, -71.062457],{
+        color: '#2da9e1',
+        fillColor: '#2da9e1',
+        fillOpacity: 0.5,
+        radius: 200
+    }).addTo(mymap)
 		.bindPopup(popup4).openPopup();
 
-	L.marker([42.3518415,-71.0646243]).addTo(mymap)
+	L.circle([42.3518415,-71.0646243],{
+        color: '#2da9e1',
+        fillColor: '#2da9e1',
+        fillOpacity: 0.5,
+        radius: 200
+    }).addTo(mymap)
 		.bindPopup(popup5).openPopup();
 
 
