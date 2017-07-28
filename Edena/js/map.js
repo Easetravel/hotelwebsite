@@ -11,27 +11,27 @@ var mymap = L.map('hotelmap').setView([42.308, -71.137], 13);
 
 var popup1 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
+    .setContent("<img src='images/2.jpg'><h3>Washington St, Suite 1</h3><p>$399</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 var popup2 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
+    .setContent("<img src='images/2.jpg'><h3>Boyslton St</h3><p>$399</br>2 Bedrooms, 2 Bathrooms</p>")
     .openOn(mymap);
 
 var popup3 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
+    .setContent("<img src='images/2.jpg'><h3>3</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 var popup4 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
+    .setContent("<img src='images/2.jpg'><h3>Harrison Ave</h3><p>$499</br>2 Bedrooms, 2 Bathrooms</p>")
     .openOn(mymap);
 
 var popup5 = L.popup({closeButton: false})
     .setLatLng([0, 0])
-    .setContent("<img src='images/2.jpg'><h3>Great Room With Views</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
+    .setContent("<img src='images/2.jpg'><h3>5</h3><p>HOUSE</br>1 Bedroom, 1 Living Room</p>")
     .openOn(mymap);
 
 
