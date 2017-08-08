@@ -35,7 +35,7 @@
 
 /*********************************nav bar******************************/
 h1,h2,h3{
-    color: #2da9e1;
+    color: #00ABE3;
 }
 /*xs screen*/
 @media (max-width: 768px){
@@ -125,7 +125,7 @@ h1,h2,h3{
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-    color: #2da9e1 !important;
+    color: #00ABE3 !important;
     text-decoration: none;
     background-color: white;
 }
@@ -141,7 +141,7 @@ h1,h2,h3{
     border-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar{
-    background-color: #2da9e1;
+    background-color: #00ABE3;
 }
 @media (max-width: 767px) {
     .navbar-collapse .nav > .divider-vertical {
@@ -173,7 +173,7 @@ footer{
 .footer-word{
     color: grey;
     font-family: RobotoSlab-Regular, serif;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 /*********************************index******************************/
@@ -185,7 +185,7 @@ footer{
     padding-top: 60px;
     text-align: center;
     font-size:calc(20px + 3vw);
-    color: #2da9e1;
+    color: #00ABE3;
     font-family: 'Oswald-ExtraLight', serif;
     padding-bottom: 80px;
 
@@ -194,7 +194,7 @@ footer{
 .title-image h3{
     text-align: center;
     font-size: 35px;
-    color: #2da9e1;
+    color: #00ABE3;
     font-family: 'RobotoSlab-Regular', serif;
     padding: 0.5em;
 
@@ -225,8 +225,8 @@ footer{
 }
 
 .btn-edena{
-    background-color: #2da9e1;
-    border: 1px solid #2da9e1;
+    background-color: #00ABE3;
+    border: 1px solid #00ABE3;
     color: white;
     font-size: 1em;
 }
@@ -242,8 +242,8 @@ footer{
 }
 
 .btn-edena-ad{
-    color: #2da9e1;
-    border: 3px solid #2da9e1;
+    color: #00ABE3;
+    border: 3px solid #00ABE3;
     background-color: black;
 }
 
@@ -276,12 +276,12 @@ footer{
     top: 0;
     position: relative;
     width: 100%;
-    border-bottom: 4px solid #2da9e1;
+    border-bottom: 4px solid #00ABE3;
 
 }
 
 .advertisement h3{
-    color: #2da9e1;
+    color: #00ABE3;
     text-align: left;
     font-size: 2.5em;
     font-family: Oswald-ExtraLight,Serif;
@@ -291,10 +291,10 @@ footer{
 
 .advertisement p{
     text-align: left;
-    font-size: 1.3em;
+    font-size: 1em;
     color: black;
     margin-bottom: 15px;
-    font-family: RobotoSlab-Bold, serif;
+    font-family: RobotoSlab-Regular, serif;
 
 }
 
@@ -322,6 +322,12 @@ footer{
     color:#000000;
     font-family: 'Oswald-Medium', serif;
     line-height: 60px;
+    color: #00ABE3;
+}
+
+
+.contact-infom{
+    padding-top: 20px;
 }
 
 .contact  span.glyphicon {
@@ -373,9 +379,9 @@ footer{
     margin-bottom: 1em;
 }
 .contact-form .btn1 {
-    border: 2px solid #2da9e1;
+    border: 2px solid #00ABE3;
     color: #fff;
-    background: #2da9e1;
+    background: #00ABE3;
     cursor: pointer;
     padding: 7px 0;
     width: 11%;
@@ -390,14 +396,14 @@ footer{
 }
 .contact-form button.btn1:hover {
     background-color: #fff;
-    color: #2da9e1;
+    color: #00ABE3;
 }
 
 .contact h4{
     font-size: 2.1em;
-    color: #2da9e1;
+    color: #00ABE3;
     margin: 0 0 0.8em 0;
-    font-family: 'Oswald-Medium';
+    font-family: 'Oswald-Medium', serif;
 }
 
 
@@ -416,7 +422,7 @@ footer{
     margin:0 auto;
     text-align: center;
     font-family: 'Oswald-ExtraLight', serif;
-    color: #2da9e1;
+    color: #00ABE3;
 
 }
 
@@ -515,6 +521,7 @@ footer{
     font-family: RobotoSlab-Bold, serif;
     font-size: 19px;
     line-height: 33px;
+    list-style-type: none;
 }
 
 /*********************************collections******************************/
@@ -541,7 +548,7 @@ footer{
     margin: 0 !important;
     width: 401px;
 
-    border: 2px solid #2da9e1;
+    border: 2px solid #00ABE3;
 }
 
 .leaflet-popup-content img{
@@ -589,7 +596,7 @@ h5{
 .navbar-nav h5{
     text-align: left;
     font-size: 1.3em;
-    color: #2da9e1;
+    color: #00ABE3;
     text-transform: uppercase;
     margin: 10px 20px;
 }
@@ -600,6 +607,6 @@ h6{
     font-size: 1.2em;
     padding: .2em 0;
     font-family: 'RobotoSlab-Regular', serif;
-    color: #2da9e1;
+    color: #00ABE3;
     letter-spacing: 0.02em;
 }

@@ -29,7 +29,6 @@
     position: relative;
 }
 .tabs a {
-    border-bottom: 1px solid #fff;
     font-weight: 500;
     display: block;
     letter-spacing: 0;
@@ -41,7 +40,12 @@
     transition: all 0.2s ease-in-out;
     border-top: 2px solid #2da9e1;
     border-bottom: 2px solid #2da9e1;
+    border-left: 2px solid #2da9e1;
 
+}
+
+.tabs-lasta{
+    border-right: 2px solid #2da9e1;
 }
 
 .tabs_item {
