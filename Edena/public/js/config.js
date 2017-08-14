@@ -21,7 +21,32 @@
             // controllerAs: "model"
         })
             .when("/collections", {
-                templateUrl: "views/collections.view.client.html",
+            templateUrl: "views/collections.view.client.html",
+            // controller: "homeController",
+            // controllerAs: "model"
+        })
+            .when("/collection1", {
+                templateUrl: "views/collection1.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
+            .when("/collection2", {
+                templateUrl: "views/collection2.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
+            .when("/collection3", {
+                templateUrl: "views/collection3.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
+            .when("/urban", {
+                templateUrl: "views/urban.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
+            .when("/park", {
+                templateUrl: "views/park.view.client.html",
                 // controller: "homeController",
                 // controllerAs: "model"
             })

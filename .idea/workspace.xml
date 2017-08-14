@@ -1,243 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="208f86ce-ee57-4b8c-8ca6-56b58e890730" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Edena/public/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Edena/public/js/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Edena/public/views/footer.view.client.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Edena/public/views/header.view.client.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Edena/public/views/home.view.client.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/aboutus.html" afterPath="$PROJECT_DIR$/Edena/public/views/aboutus.view.client.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/collection.html" afterPath="$PROJECT_DIR$/Edena/public/views/collection.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/collection2.html" afterPath="$PROJECT_DIR$/Edena/public/views/collection2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/collection3.html" afterPath="$PROJECT_DIR$/Edena/public/views/collection3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/collections.html" afterPath="$PROJECT_DIR$/Edena/public/views/collections.view.client.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/contact.html" afterPath="$PROJECT_DIR$/Edena/public/views/contact.view.client.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/css/daterangepicker.css" afterPath="$PROJECT_DIR$/Edena/public/css/daterangepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/css/slider.css" afterPath="$PROJECT_DIR$/Edena/public/css/slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/css/styles.css" afterPath="$PROJECT_DIR$/Edena/public/css/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/css/subscribe.css" afterPath="$PROJECT_DIR$/Edena/public/css/subscribe.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/css/tab.css" afterPath="$PROJECT_DIR$/Edena/public/css/tab.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Marvel-Regular.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Marvel-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Oswald-Bold.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Oswald-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Oswald-ExtraLight.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Oswald-ExtraLight.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Oswald-Light.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Oswald-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Oswald-Medium.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Oswald-Medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Oswald-Regular.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Oswald-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Oswald-SemiBold.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Oswald-SemiBold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/Roboto-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/RobotoSlab-Bold.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/RobotoSlab-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/RobotoSlab-Light.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/RobotoSlab-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/RobotoSlab-Regular.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/RobotoSlab-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/RobotoSlab-Thin.ttf" afterPath="$PROJECT_DIR$/Edena/public/fonts/RobotoSlab-Thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/Edena/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/Edena/public/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/1.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/11 (2).jpg" afterPath="$PROJECT_DIR$/Edena/public/images/11 (2).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/111.png" afterPath="$PROJECT_DIR$/Edena/public/images/111.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/2.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/3.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/4.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/5.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/6.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/8.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/Airplane.png" afterPath="$PROJECT_DIR$/Edena/public/images/Airplane.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/Cogwheel.png" afterPath="$PROJECT_DIR$/Edena/public/images/Cogwheel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collecion - Guest Room.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collecion - Guest Room.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collecion - Kitchen Counter.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collecion - Kitchen Counter.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collecion - Living Room.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collecion - Living Room.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collecion - Masterbedroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collecion - Masterbedroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection - Living Room 2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection - Living Room 2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection - Living Room.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection - Living Room.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection - Master Bedroom .JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection - Master Bedroom .JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection - Master Bedroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection - Master Bedroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection Bathroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection Bathroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection Bedroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection Bedroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection Kitchen.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection Kitchen.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection Living Room 2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection Living Room 2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/Edena Collection Living Room.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/Edena Collection Living Room.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/IMG_0010.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/IMG_0010.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/IMG_0053.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/IMG_0053.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/IMG_0054.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/IMG_0054.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/IMG_0324.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/IMG_0324.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/bedroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/bedroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/kitchen1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/kitchen1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/livingroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/livingroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection2/livingroom2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection2/livingroom2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/CommonArea.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/CommonArea.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/CommonArea2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/CommonArea2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/CommonArea3.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/CommonArea3.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/CommonArea4.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/CommonArea4.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/CommonArea5.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/CommonArea5.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/CommonArea6.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/CommonArea6.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/NightView.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/NightView.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/bathroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/bathroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/bathroom2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/bathroom2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/bedroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/bedroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/bedroom2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/bedroom2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/gym1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/gym1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/laundryroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/laundryroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/livingroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/livingroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/pool.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/pool.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/spa.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/spa.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/view1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/view1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaCollection/collection3/view2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaCollection/collection3/view2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/EdenParkBedroom2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/EdenParkBedroom2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/Edena Park - Bedroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/Edena Park - Bedroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/Edena Park - Bedroom2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/Edena Park - Bedroom2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/Edena Park - Living Room.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/Edena Park - Living Room.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/Edena Park .JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/Edena Park .JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/Edena Park Bedroom .JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/Edena Park Bedroom .JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/EdenaPark.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/EdenaPark.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/EdenaParkBedroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/EdenaParkBedroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/EdenaParkBedroom3.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/EdenaParkBedroom3.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/EdenaParkLivingRoom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/EdenaParkLivingRoom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/Boylston1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/Boylston1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/Boylston2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/Boylston2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/Boylston3.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/Boylston3.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/bathroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/bathroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/bedroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/bedroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/hallway.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/hallway.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/laundry.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/laundry.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/livingroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/livingroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park1/lobby.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park1/lobby.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/Boylston1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/Boylston1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/Boylston2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/Boylston2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/Boylston3.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/Boylston3.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/bathroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/bathroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/bedroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/bedroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/hallway.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/hallway.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/laundry.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/laundry.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/livingroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/livingroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaPark/park2/lobby.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaPark/park2/lobby.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/CommonArea1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/CommonArea1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/CommonArea2.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/CommonArea2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Bathroom.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Bathroom.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Coffee Shop.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Coffee Shop.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Common Area 2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Common Area 2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Common Area 3.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Common Area 3.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Common Area 4.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Common Area 4.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Common Area.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Common Area.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Common Deck.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Common Deck.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Common Room.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Common Room.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Dining%2FKitchen.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Dining%2FKitchen.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Floor Hallway.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Floor Hallway.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Gym.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Gym.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Living Room.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Living Room.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Lobby 2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Lobby 2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Lobby.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Lobby.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Master Bedroom.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Master Bedroom.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban - Pool.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban - Pool.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban Bedroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban Bedroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban Kitchen 2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban Kitchen 2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban Kitchen.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban Kitchen.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban Living Room.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban Living Room.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban Master Bedroom.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban Master Bedroom.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/Edena Urban.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/Edena Urban.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/coffeeshop.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/coffeeshop.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/kitchen1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/kitchen1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/kitchen2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/kitchen2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/livingroom1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/livingroom1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/livingroom2.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/livingroom2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/EdenaUrban/pool.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/EdenaUrban/pool.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/Folded.png" afterPath="$PROJECT_DIR$/Edena/public/images/Folded.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/Landing.png" afterPath="$PROJECT_DIR$/Edena/public/images/Landing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/Location.png" afterPath="$PROJECT_DIR$/Edena/public/images/Location.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/Mail.png" afterPath="$PROJECT_DIR$/Edena/public/images/Mail.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/Phone.png" afterPath="$PROJECT_DIR$/Edena/public/images/Phone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/User.png" afterPath="$PROJECT_DIR$/Edena/public/images/User.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner1-resize.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/banner1-resize.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner1.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/banner1.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/banner2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner3 - Copy.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/banner3 - Copy.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner3-resize.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/banner3-resize.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner3.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/banner3.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner4.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/banner4.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner5.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/banner5.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/banner6.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/banner6.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/bg.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/black.png" afterPath="$PROJECT_DIR$/Edena/public/images/black.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/button-search.png" afterPath="$PROJECT_DIR$/Edena/public/images/button-search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/close_1.png" afterPath="$PROJECT_DIR$/Edena/public/images/close_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/downArrow.png" afterPath="$PROJECT_DIR$/Edena/public/images/downArrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/facebook.png" afterPath="$PROJECT_DIR$/Edena/public/images/facebook.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/favicon.ico" afterPath="$PROJECT_DIR$/Edena/public/images/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/g1.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/g1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/google.png" afterPath="$PROJECT_DIR$/Edena/public/images/google.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/i1.png" afterPath="$PROJECT_DIR$/Edena/public/images/i1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/i2.png" afterPath="$PROJECT_DIR$/Edena/public/images/i2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/i3.png" afterPath="$PROJECT_DIR$/Edena/public/images/i3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/i4.png" afterPath="$PROJECT_DIR$/Edena/public/images/i4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/ac.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/ac.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/apartment.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/apartment.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/baby_crib.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/baby_crib.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/bbq.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/bbq.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/bike.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/bike.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/bus.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/bus.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/city_sky.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/city_sky.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/coffee_machine.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/coffee_machine.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/conceirge.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/conceirge.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/dining_table.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/dining_table.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/french_window.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/french_window.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/garden_park.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/garden_park.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/gym.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/gym.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/heater.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/heater.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/high_speed_internet.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/high_speed_internet.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/king_bed.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/king_bed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/kitchen.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/kitchen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/laundry.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/laundry.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/lounge.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/lounge.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/luxury_linen.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/luxury_linen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/netflix.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/netflix.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/ocean_harbor.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/ocean_harbor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/oven.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/oven.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/parking.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/parking.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/pet_friendly.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/pet_friendly.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/purifier.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/purifier.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/queen_bed.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/queen_bed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/security.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/security.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/sofa-bed.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/sofa-bed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/speaker.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/speaker.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/stove.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/stove.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/swimming_pool.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/swimming_pool.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/toilet.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/toilet.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/tour.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/tour.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/tv.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/tv.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/video_console.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/video_console.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/whole_foods.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/whole_foods.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/wifi.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/wifi.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/wine_glass.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/wine_glass.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/icons/workstation.png" afterPath="$PROJECT_DIR$/Edena/public/images/icons/workstation.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/logo_small.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/logo_small.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/logo_small.png" afterPath="$PROJECT_DIR$/Edena/public/images/logo_small.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/pinterest.png" afterPath="$PROJECT_DIR$/Edena/public/images/pinterest.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/s1.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/s1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/s2.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/s2.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/s3.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/s3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/s4.JPG" afterPath="$PROJECT_DIR$/Edena/public/images/s4.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/s5.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/s5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/search-dark.png" afterPath="$PROJECT_DIR$/Edena/public/images/search-dark.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/slid.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/slid.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/slide-darken.jpg" afterPath="$PROJECT_DIR$/Edena/public/images/slide-darken.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/tick1.png" afterPath="$PROJECT_DIR$/Edena/public/images/tick1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/twitter.png" afterPath="$PROJECT_DIR$/Edena/public/images/twitter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/images/upArrow.png" afterPath="$PROJECT_DIR$/Edena/public/images/upArrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/index.html" afterPath="$PROJECT_DIR$/Edena/public/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/filter.js" afterPath="$PROJECT_DIR$/Edena/public/js/filter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/fixmap.js" afterPath="$PROJECT_DIR$/Edena/public/js/fixmap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/fold-text.js" afterPath="$PROJECT_DIR$/Edena/public/js/fold-text.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/functions.js" afterPath="$PROJECT_DIR$/Edena/public/js/functions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/map.js" afterPath="$PROJECT_DIR$/Edena/public/js/map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/owl.carousel.js" afterPath="$PROJECT_DIR$/Edena/public/js/owl.carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/responsiveslides.min.js" afterPath="$PROJECT_DIR$/Edena/public/js/responsiveslides.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/js/tab.js" afterPath="$PROJECT_DIR$/Edena/public/js/tab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/park.html" afterPath="$PROJECT_DIR$/Edena/public/views/park.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/privacy.html" afterPath="$PROJECT_DIR$/Edena/public/views/privacy.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/terms.html" afterPath="$PROJECT_DIR$/Edena/public/views/terms.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/test.html" afterPath="$PROJECT_DIR$/Edena/public/views/test.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Edena/urban.html" afterPath="$PROJECT_DIR$/Edena/public/views/urban.html" />
-    </list>
+    <list default="true" id="208f86ce-ee57-4b8c-8ca6-56b58e890730" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -263,11 +27,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Edena/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="540">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Edena/public/js/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="park.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Edena/public/views/park.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="privacy.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Edena/public/views/privacy.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urban.view.client.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Edena/public/views/urban.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection3.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Edena/public/views/collection3.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1036">
+              <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collections.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Edena/public/views/collections.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="81" column="43" lean-forward="true" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection1.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Edena/public/views/collection1.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Edena/public/views/footer.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -311,8 +166,8 @@
       <find>poster</find>
       <find>title</find>
       <find>4.5</find>
-      <find>/images</find>
       <find>href</find>
+      <find>/images</find>
     </findStrings>
     <replaceStrings>
       <replace>/public/images</replace>
@@ -347,11 +202,16 @@
         <option value="$PROJECT_DIR$/Edena/public/views/aboutus.view.client.html" />
         <option value="$PROJECT_DIR$/Edena/public/views/contact.view.client.html" />
         <option value="$PROJECT_DIR$/Edena/public/views/collections.view,client.html" />
-        <option value="$PROJECT_DIR$/Edena/public/js/config.js" />
         <option value="$PROJECT_DIR$/Edena/public/views/footer.view.client.html" />
-        <option value="$PROJECT_DIR$/Edena/public/views/collections.view.client.html" />
         <option value="$PROJECT_DIR$/Edena/public/js/fixmap.js" />
         <option value="$PROJECT_DIR$/Edena/public/index.html" />
+        <option value="$PROJECT_DIR$/Edena/public/views/collection.html" />
+        <option value="$PROJECT_DIR$/Edena/public/js/config.js" />
+        <option value="$PROJECT_DIR$/Edena/public/views/collections.view.client.html" />
+        <option value="$PROJECT_DIR$/Edena/public/views/park.view.client.html" />
+        <option value="$PROJECT_DIR$/Edena/public/views/collection3.view.client.html" />
+        <option value="$PROJECT_DIR$/Edena/public/views/collection1.view.client.html" />
+        <option value="$PROJECT_DIR$/Edena/public/views/urban.view.client.html" />
       </list>
     </option>
   </component>
@@ -365,10 +225,10 @@
     <handled-path value="$PROJECT_DIR$/memberexperiment/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="367" />
-    <option name="y" value="97" />
-    <option name="width" value="1840" />
-    <option name="height" value="940" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -386,25 +246,26 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -418,11 +279,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -440,33 +301,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Edena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hotelwebsite" />
+              <option name="myItemId" value="edena website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -476,7 +315,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,14 +344,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="collection.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/edena website/Edena/collection.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="urban.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/edena website/Edena/urban.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="collection3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/edena website/Edena/collection3.html">
       <method />
     </configuration>
     <configuration default="false" name="collection2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/edena website/Edena/collection2.html">
@@ -522,17 +354,16 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:3000/hotelwebsite/Edena/public/index.html">
       <method />
     </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/edena website/Edena/public/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="urban.view.client.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/edena website/Edena/public/views/urban.view.client.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -569,7 +400,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -590,18 +421,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.collection.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.urban.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.collection3.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.collection2.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.collection2.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.urban.view.client.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.collection.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.collection2.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.collection3.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.urban.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.urban.view.client.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.collection.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.collection2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -625,24 +456,26 @@
       <workItem from="1502657041286" duration="521000" />
       <workItem from="1502657576920" duration="41000" />
       <workItem from="1502657631744" duration="5325000" />
+      <workItem from="1502692136700" duration="1506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44914000" />
+    <option name="totallyTimeSpent" value="46420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="367" y="97" width="1840" height="940" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20144284" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20126449" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -665,41 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Edena/public/views/collections.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2260">
-          <caret line="113" column="72" lean-forward="false" selection-start-line="113" selection-start-column="72" selection-end-line="113" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/views/collection3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/css/subscribe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/css/slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3660">
-          <caret line="183" column="10" lean-forward="true" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Edena/public/js/filter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -890,20 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/views/park.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6860">
-          <caret line="245" column="20" lean-forward="false" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/views/collection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7252">
-          <caret line="259" column="0" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Edena/public/views/collection2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7168">
@@ -929,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,11 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="112" column="10" lean-forward="true" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -973,15 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
           <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,17 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1501215543019" expanded="true" signature="276:282" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/views/footer.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,23 +769,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/collection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/footer.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/park.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2255">
+          <caret line="243" column="18" lean-forward="true" selection-start-line="243" selection-start-column="18" selection-end-line="243" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Edena/public/views/collections.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="168" selection-end-column="36" />
+        <state relative-caret-position="570">
+          <caret line="81" column="43" lean-forward="true" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Edena/public/index.html">
+    <entry file="file://$PROJECT_DIR$/Edena/public/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="695">
+          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/park.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/privacy.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/collection3.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/collection1.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edena/public/views/urban.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
