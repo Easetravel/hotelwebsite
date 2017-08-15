@@ -298,6 +298,41 @@ footer{
 
 }
 
+.introduction{
+    background: url("../images/8.jpg") no-repeat;
+    background-size: cover;
+    padding: 12em 0;
+    text-align: center;
+    color: #2da9e1;
+}
+
+.introductionText{
+    text-align: center;
+    /*min-width: 50%;*/
+    min-width: 400px;
+    max-width: 53%;
+    display: inline-block;
+
+}
+.introductionText h2{
+    font-size: 4em;
+    padding: 0.5em 0;
+    font-family: Oswald-ExtraLight, Serif;
+}
+.introductionText h3{
+    font-size: 20px;
+    font-family: RobotoSlab-Regular,Serif;
+    line-height: 29px;
+    color: #000;
+    margin: 0 auto;
+}
+
+.introductionText p {
+    text-align: left;
+    font-size: 18px;
+    font-family:RobotoSlab-light,Serif;
+    color: #000;
+}
 
 
 /*********************************about us******************************/
@@ -455,7 +490,7 @@ footer{
 }
 
 .details p{
-    font-family: RobotoSlab-light;
+    font-family: RobotoSlab-light,Serif;
     font-size: 16px;
     line-height: 25px;
     color: #000;
@@ -610,3 +645,78 @@ h6{
     color: #00ABE3;
     letter-spacing: 0.02em;
 }
+
+/*-- login --*/
+.modal-header {
+    border-bottom: none;
+}
+.modal-dialog {
+    width: 550px;
+    margin: 12em auto 0 auto;
+}
+.modal-body {
+    padding: 2em 4em 4em;
+}
+.login-right h3{
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: RobotoSlab-Regular,Serif;
+    color:#2da9e1;
+}
+.login-right input[type="text"] ,.login-right input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid #E6E4E4;
+    color: #D2D1D1;
+    outline: none;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.login-right h4{
+    color:#2da9e1;
+    font-size:12px;
+    margin:20px 0;
+}
+.login-right h4 a{
+    color:#2da9e1;
+    text-decoration:none;
+}
+.login-right h4 a:hover{
+    color:#2da9e1;
+}
+.login-right input[type="submit"] {
+    background:#2da9e1;
+    color: #fff;
+    font-size: 1.5em;
+    border: none;
+    width: 100%;
+    outline: none;
+    -webkit-appearance:none;
+    padding: .5em 0;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    margin-top: .5em;
+    font-family: 'PT Sans', sans-serif;
+}
+.login-right input[type="submit"]:hover {
+    background:#2da9e1;
+}
+.login-grids p {
+    font-size: 12px;
+    margin-top: 25px;
+    color:#A9A8A8;
+}
+.login-grids p a{
+    color:#2da9e1;
+    text-decoration:none;
+}
+.modal-header .close {
+    outline: none;
+}
+/*-- //login --*/

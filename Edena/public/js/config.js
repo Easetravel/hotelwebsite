@@ -50,6 +50,12 @@
                 // controller: "homeController",
                 // controllerAs: "model"
             })
+            .when("/terms", {
+                templateUrl: "views/terms.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
+
 
     }
 
