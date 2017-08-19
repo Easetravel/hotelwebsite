@@ -55,7 +55,11 @@
                 // controller: "homeController",
                 // controllerAs: "model"
             })
-
+            .when("/profile", {
+                templateUrl: "views/profile.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
 
     }
 

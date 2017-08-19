@@ -720,3 +720,30 @@ h6{
     outline: none;
 }
 /*-- //login --*/
+
+/*-- //profile page --*/
+@media (max-width: 1440px){
+    .profile h2{
+        padding: 0 12px;
+    }
+.profile-left{
+    width:25%;
+}
+    .profile-right{
+        width: 75%;
+    }
+    .order{
+        padding: 5px 5px;
+        display: inline-block;
+    }
+    .order h5{
+       text-align: center;
+        float: left;
+
+    }
+    .orderGrid{
+        border: 2px solid #2da9e1;
+        width: 80%;
+        display: inline-block;
+    }
+}
