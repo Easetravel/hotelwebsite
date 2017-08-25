@@ -60,6 +60,11 @@
                 // controller: "homeController",
                 // controllerAs: "model"
             })
+            .when("/checkin", {
+                templateUrl: "views/checkin.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
 
     }
 
