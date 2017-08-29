@@ -878,7 +878,7 @@ a {
 
 .expiry-date-group {
     float: left;
-    width: 50%
+    width: 49%;
 }
 
 .expiry-date-group input {
@@ -941,6 +941,13 @@ a {
     margin-right: auto;
     display: block;
 }
+
+@media (max-width: 768px) {
+    #Checkin {
+        width: 90%;
+    }
+}
+
 
 #Checkin>h1 {
     margin: 0;
