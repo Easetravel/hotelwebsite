@@ -1,6 +1,7 @@
 /*--subscribe--*/
 .subscribe{
-    background:url(../images/slide-darken.jpg)no-repeat 0px 0px fixed;
+    /*background:url(../images/slide-darken.jpg)no-repeat 0px 0px fixed;*/
+    background:url(../images/index/home-collection.jpg)no-repeat 0px 0px fixed;
     background-size:cover;
     text-align:center;
     padding:12em 0;
