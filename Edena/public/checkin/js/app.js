@@ -1,5 +1,5 @@
 (function () {
-    angular.module("Checkin", ["ngRoute",require('angular-stripe')]);
+    angular.module("Checkin", ["ngRoute"]);
     // app.config(configuration);
     // app.controller("loginController", loginController);
 })();
