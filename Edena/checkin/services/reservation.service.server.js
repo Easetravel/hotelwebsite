@@ -18,15 +18,12 @@ app.delete("/reservationapi/resv/:resvid", deleteReservation);
 function chargeCard(req,res) {
 
     var token = req.body.stripeToken; // Using Express
-    var resvno = req.body.resvno;
-    var firstname = req.body.firstname;
-    var lastname = req.body.lastname;
-    var phone = req.body.phone;
-    var email = req.body.email;
-    var numberofguests = req.body.numberofguests;
-
-
-
+    // var resvno = req.body.resvno;
+    // var firstname = req.body.firstname;
+    // var lastname = req.body.lastname;
+    // var phone = req.body.phone;
+    // var email = req.body.email;
+    // var numberofguests = req.body.numberofguests;
 
 
     var charge = stripe.charges.create({

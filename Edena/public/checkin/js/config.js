@@ -3,7 +3,8 @@
         .module("Checkin")
         .config(configuration);
 
-    function configuration($routeProvider) {
+    function configuration($routeProvider, stripeProvider) {
+        stripeProvider.setPublishableKey('pk_test_PIwGiLRv0zSDSKCTIv7Hv2ZT')
         $routeProvider
             .when("/", {
                 templateUrl: "views/templates/checkin.view.client.html",
