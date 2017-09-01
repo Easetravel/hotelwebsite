@@ -10,7 +10,8 @@
             "createReservation"   : createReservation,
             "getAllReservations" : getAllReservations,
             "updateReservation" : updateReservation,
-            "getReservationByNo": getReservationByNo
+            "getReservationByNo": getReservationByNo,
+            "deleteReservation": deleteReservation
         };
         return api;
 
@@ -38,8 +39,8 @@
         }
 
         function deleteReservation(resvId) {
-            var url = "/reservationapi/" + resvId;
-            return $http.get(url);
+            var url = "/reservationapi/resv/" + resvId;
+            return $http.delete(url);
         }
 
 

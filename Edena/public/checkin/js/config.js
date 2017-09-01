@@ -6,13 +6,14 @@
     function configuration($routeProvider) {
         $routeProvider
             .when("/", {
-                templateUrl: "views/templates/checkin.view.client.html"
-                // controller: "homeController",
-                // controllerAs: "model"
+                templateUrl: "views/templates/checkin.view.client.html",
+                 controller: "checkinController",
+                controllerAs: "model"
             })
-            .when("/checkin", {
-                templateUrl: "views/templates/checkin.view.client.html"
-                // controller: "homeController",
+
+            .when("/thankyou", {
+                templateUrl: "views/templates/thankyou.view.client.html"
+                // controller: "adminEditController",
                 // controllerAs: "model"
             })
             .when("/admin", {
@@ -25,6 +26,7 @@
                 controller: "adminEditController",
                 controllerAs: "model"
             })
+
 
     }
 

@@ -8,6 +8,7 @@ reservationModel.updateReservation = updateReservation;
 reservationModel.findReservationByReserveNo = findReservationByReserveNo;
 reservationModel.findReservationByName = findReservationByName;
 reservationModel.getAllReservations = getAllReservations;
+reservationModel.deleteReservation = deleteReservation;
 
 module.exports = reservationModel;
 
@@ -41,6 +42,11 @@ function getAllReservations() {
     return reservationModel.find();
 }
 
+function deleteReservation(resvId) {
+    return reservationModel
+        .remove({_id: resvId});
+
+}
 
 function randomString(length, chars) {
     var result = '';

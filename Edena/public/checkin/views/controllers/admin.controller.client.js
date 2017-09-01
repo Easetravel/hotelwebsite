@@ -43,6 +43,7 @@
                 .then(function (response) {
                     if(response.data == "1")
                         alert("delete success");
+                        getAllReservations();
                 });
         }
 

@@ -1,8 +1,11 @@
 var app = require("../../express");
+var stripe = require("stripe")("sk_test_D8L9ZFyO3IkOkIEOXWwbV18Z");
+
 var reservationModel = require("../model/reservation.model.server");
 
 //post
 app.post("/reservationapi/create", createReservation);
+app.post("/reservationapi/charge", chargeCard);
 //get
 app.get("/reservationapi/byresvno/:resvno", findReservationByReserveNo);
 app.get("/reservationapi/byname/:firstname/:lastname", findReservationByName);
@@ -10,6 +13,34 @@ app.get("/reservationapi/all", getAllReservations);
 //put
 app.put("/reservationapi/resv/:resvid", updateReservation);
 //delete
+app.delete("/reservationapi/resv/:resvid", deleteReservation);
+
+function chargeCard(req,res) {
+
+    var token = req.body.stripeToken; // Using Express
+    var resvno = req.body.resvno;
+    var firstname = req.body.firstname;
+    var lastname = req.body.lastname;
+    var phone = req.body.phone;
+    var email = req.body.email;
+    var numberofguests = req.body.numberofguests;
+
+
+
+
+
+    var charge = stripe.charges.create({
+        amount: 100,
+        currency: "usd",
+        description: "Example charge",
+        source: token,
+    }, function(err, charge) {
+        var show = charge;
+        var showerr = err;
+        res.redirect('/checkin/#!/thankyou');
+        // asynchronously called
+    });
+}
 
 
 function createReservation(req,res) {
@@ -68,13 +99,13 @@ function getAllReservations(req,res) {
         });
 }
 
-// function deleteTransaction(req, res) {
-//     var transactionId = req.params.transactionId;
-//     transactionModel
-//         .deleteTransaction(transactionId)
-//         .then(function (transaction) {
-//             res.send("1");
-//         }, function (err) {
-//             res.send("0");
-//         });
-// }
+function deleteReservation(req, res) {
+    var resvId = req.params.resvid;
+    reservationModel
+        .deleteReservation(resvId)
+        .then(function (resv) {
+            res.send("1");
+        }, function (err) {
+            res.send("0");
+        });
+}
