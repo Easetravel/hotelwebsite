@@ -1384,3 +1384,6 @@ select::-ms-expand {
 #toggle-orders a{
     font-size: 15px;
 }
+.about-grids h3{
+    font-family: Oswald-Regular;
+}
