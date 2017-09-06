@@ -25,6 +25,11 @@
                 // controller: "homeController",
                 // controllerAs: "model"
             })
+            .when("/privacy", {
+                templateUrl: "views/privacy.view.client.html",
+                // controller: "homeController",
+                // controllerAs: "model"
+            })
 
 
     }
