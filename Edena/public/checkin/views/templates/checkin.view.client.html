@@ -1,13 +1,25 @@
 <div class="content" ng-switch="model.mode">
-    <div ng-switch-when="findcheckin">
-        input your reservation No.
-        <input class="form-control"
-               type="text"
-               ng-model="model.resvNo">
-        </input>
-        <a class="btn btn-primary btn-block"
+    <div ng-switch-when="findcheckin" class="findcheckin-container">
+        <h1>Welcome to Edena Resorts</h1>
+        <div class="text-input">
+            <input type="text"
+                   id="input1"
+                    ng-model="model.resvNo"
+                   placeholder="Your Reservation No.">
+            <label for="input1">Reservatin No.</label>
+        </div>
+        <!--<input class="form-control"-->
+               <!--type="text"-->
+               <!--ng-model="model.resvNo">-->
+        <!--</input>-->
+        <a class="btn btn-mobile btn-edena"
            role="button"
+
            ng-click="model.getReservationByNo()">Check in</a>
+
+        <div ng-show="model.errorMessage" class="alert alert-danger">
+            <h3>{{model.errorMessage}}</h3>
+        </div>
     </div>
 
 
@@ -15,12 +27,35 @@
     <div id="Checkin" class="inline" ng-switch-when="checkin">
         <h1>GUEST CHECK IN</h1>
 
-        <form action="/reservationapi/charge" method="post" id="payment-form">
+        <form id="payment-form">
             <div class="form-group">
                 <label>Reservation Number</label>
                 <div class="num-placeholder">
-                    <p>{{model.resv.reservationnumber}}</p>
+                    <input id="resvno"
+                           readonly
+                           class="form-control"
+                           value="{{model.resv.reservationnumber}}">
                 </div>
+            </div>
+
+            <div class="expiry-date-group form-group">
+                <label>Checkin</label>
+                <input class="form-control"
+                       id="checkin"
+                       type="date"
+                       readonly
+                       ng-model="model.formatcheckindate">
+                </input>
+            </div>
+
+            <div class="expiry-date-group form-group">
+                <label>Checkout</label>
+                <input class="form-control"
+                       id="checkout"
+                       type="date"
+                       readonly
+                       ng-model=" model.formatcheckoutdate">
+                </input>
             </div>
 
             <div class="expiry-date-group form-group">
@@ -36,29 +71,30 @@
                 <label >Last Name</label>
                 <div class="input-container" >
                     <input class="form-control"
+                           id="lastname"
                            type="text"
                            ng-model="model.resv.lastname">
                     </input>
                 </div>
 
-                <div class="cvc-preview-container two-card hide">
-                    <div class="amex-cvc-preview"></div>
-                    <div class="visa-mc-dis-cvc-preview"></div>
-                </div>
             </div>
 
             <div class="expiry-date-group form-group">
                 <label>Phone Number</label>
                 <input class="form-control"
+                       id="phone"
                        type="text"
-                       ng-model="model.format">
+                       ng-model="model.resv.phone">
 
                 </input>
             </div>
             <div class="security-code-group form-group">
                 <label>Number of Guests</label>
                 <div class="input-container" >
-                    <input class="form-control" type="number" ></input>
+                    <input class="form-control"
+                           type="number"
+                           ng-model="model.resv.people"
+                           id="guestno"></input>
                 </div>
                 <div class="cvc-preview-container two-card hide">
                     <div class="amex-cvc-preview"></div>
@@ -68,7 +104,11 @@
 
             <div class="form-group">
                 <label>Email</label>
-                <input class="form-control" type="email" maxlength="255"></input>
+                <input class="form-control"
+                       type="email"
+                       maxlength="255"
+                       ng-model="model.resv.email"
+                       id="email"></input>
             </div>
 
             <!--<div class="form-group">-->
@@ -124,11 +164,16 @@
                 <span class="discover"></span>
             </div>
 
-            <button id="PayButton" class="btn btn-block btn-success submit-button" type="submit">
+            <button id="PayButton"
+                    class="btn btn-block btn-success submit-button"
+                    ng-click="model.checkIn()">
             <span class="submit-button-lock"></span>
             <span class="align-middle">Continue</span>
             </button>
         </form>
-        <script src="js/payment.js"></script>
+
+
+        <!--<script src="js/payment.js"></script>-->
+
     </div>
 </div>

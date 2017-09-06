@@ -50,36 +50,28 @@
                placeholder="Email"
                ng-model="model.resv.email">
 
-        <h5>Card Number</h5>
-        <input type="number"
-               class="form-control input-block"
-               placeholder="card number"
-               ng-model="model.resv.cardnumber">
-
-        <h5>Exp Mounth</h5>
-        <input type="number"
-               class="form-control input-block"
-               placeholder="exp mounth"
-               ng-model="model.resv.expmounth">
-
-        <h5>Exp Year</h5>
-        <input type="number"
-               class="form-control input-block"
-               placeholder="exp year"
-               ng-model="model.resv.expyear">
-
-        <h5>CVV</h5>
-        <input type="number"
-               class="form-control input-block"
-               placeholder="cvv"
-               ng-model="model.resv.cvv">
 
         <h5>Status</h5>
-        <input type="text"
-               class="form-control input-block"
-               placeholder="status"
-               ng-model="model.resv.status">
-
+        <select ng-model="model.resv.status"c
+                class="form-control input-block">
+            <option value="BOOKED">BOOKED</option>
+            <option value="CHECKEDIN">CHECKEDIN</option>
+            <option value="CANCELED">CANCELED</option>
+        </select>
+        <!--<input type="text"-->
+               <!--class="form-control input-block"-->
+               <!--placeholder="status"-->
+               <!--ng-model="model.resv.status">-->
+        <div ng-show="model.showcharge">
+            <h5>Charge</h5>
+            <input type="number"
+                   class=""
+                   placeholder="charge amount"
+                   ng-model="model.chargeAmount">
+            <a class="btn btn-primary"
+               role="button"
+               ng-click="model.chargeMoney()">Charge</a>
+        </div>
 
         <a class="btn btn-primary btn-block"
            role="button"

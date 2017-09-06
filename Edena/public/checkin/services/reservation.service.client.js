@@ -11,7 +11,10 @@
             "getAllReservations" : getAllReservations,
             "updateReservation" : updateReservation,
             "getReservationByNo": getReservationByNo,
-            "deleteReservation": deleteReservation
+            "deleteReservation": deleteReservation,
+            "checkIn": checkIn,
+            "chargeMoney": chargeMoney
+
         };
         return api;
 
@@ -42,6 +45,17 @@
             var url = "/reservationapi/resv/" + resvId;
             return $http.delete(url);
         }
+
+        function checkIn(resv) {
+            var url = "/reservationapi/charge"
+            return $http.post(url,resv);
+        }
+
+        function chargeMoney(resvNo, amount) {
+            var url = "/reservationapi/chargemoney/" + resvNo + "/" + amount;
+            return $http.get(url);
+        }
+
 
 
 

@@ -61,19 +61,56 @@ function stripeTokenHandler(token) {
     // Insert the token ID into the form so it gets submitted to the server
     var form = document.getElementById('payment-form');
     var firstname = document.getElementById('firstname');
+    var lastname = document.getElementById('lastname');
+    var email = document.getElementById('email');
+    var phone = document.getElementById('phone');
+    var resvno = document.getElementById('resvno');
+    var guestno =  document.getElementById('guestno');
 
     var hiddenInput = document.createElement('input');
     hiddenInput.setAttribute('type', 'hidden');
     hiddenInput.setAttribute('name', 'stripeToken');
     hiddenInput.setAttribute('value', token.id);
     form.appendChild(hiddenInput);
+    //
+    var hiddenFirstname = document.createElement('input');
+    hiddenFirstname.setAttribute('type', 'hidden');
+    hiddenFirstname.setAttribute('name', 'firstname');
+    hiddenFirstname.setAttribute('value', firstname.value);
+    form.appendChild(hiddenFirstname);
+    //
+    var hiddenLastname = document.createElement('input');
+    hiddenLastname.setAttribute('type', 'hidden');
+    hiddenLastname.setAttribute('name', 'lastname');
+    hiddenLastname.setAttribute('value', lastname.value);
+    form.appendChild(hiddenLastname);
+    //
+    var hiddenPhone = document.createElement('input');
+    hiddenPhone.setAttribute('type', 'hidden');
+    hiddenPhone.setAttribute('name', 'phone');
+    hiddenPhone.setAttribute('value', phone.value);
+    form.appendChild(hiddenPhone);
+    //
 
-    var hiddenfirstname = document.createElement('input');
-    hiddenInput.setAttribute('type', 'hidden');
-    hiddenInput.setAttribute('name', 'firstname');
-    hiddenInput.setAttribute('value', firstname.value);
-    form.appendChild(hiddenfirstname);
+    var hiddenEmail = document.createElement('input');
+    hiddenEmail.setAttribute('type', 'hidden');
+    hiddenEmail.setAttribute('name', 'email');
+    hiddenEmail.setAttribute('value', email.value);
+    form.appendChild(hiddenEmail);
+    //
+    var hiddenGuestno = document.createElement('input');
+    hiddenGuestno.setAttribute('type', 'hidden');
+    hiddenGuestno.setAttribute('name', 'guestno');
+    hiddenGuestno.setAttribute('value', guestno.value);
+    form.appendChild(hiddenGuestno);
+    //
+    var hiddenResvno = document.createElement('input');
+    hiddenResvno.setAttribute('type', 'hidden');
+    hiddenResvno.setAttribute('name', 'resvno');
+    hiddenResvno.setAttribute('value', resvno.value);
+    form.appendChild(hiddenResvno);
 
+    alert(resvno.value);
     // Submit the form
     form.submit();
 }

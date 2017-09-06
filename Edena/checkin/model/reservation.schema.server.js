@@ -6,13 +6,11 @@ var reservationSchema = mongoose.Schema({
     people: {type:Number, default:0},
     firstname: String,
     lastname: String,
-    cardnumber: Number,
-    expmounth: Number,
-    expyear: Number,
-    cvv: Number,
     status: {type: String, enum: ['BOOKED', 'CHECKEDIN', 'CANCELED'], default: "BOOKED"},
     phone: Number,
-    email: String
+    email: String,
+    stripetoken: String,
+    stripecustomerid: String
 
 
 }, {collection: "reservation"});

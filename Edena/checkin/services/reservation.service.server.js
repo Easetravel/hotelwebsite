@@ -10,36 +10,74 @@ app.post("/reservationapi/charge", chargeCard);
 app.get("/reservationapi/byresvno/:resvno", findReservationByReserveNo);
 app.get("/reservationapi/byname/:firstname/:lastname", findReservationByName);
 app.get("/reservationapi/all", getAllReservations);
+app.get("/reservationapi/chargemoney/:resvno/:amount", chargeMoney)
 //put
 app.put("/reservationapi/resv/:resvid", updateReservation);
 //delete
 app.delete("/reservationapi/resv/:resvid", deleteReservation);
 
+
+function chargeMoney(req,res) {
+    var resvNo = req.params.resvno;
+    var amount = req.params.amount;
+
+    reservationModel.findReservationByReserveNo(resvNo)
+        .then(function (resv) {
+            return stripe.charges.create({
+                amount: amount,
+                currency: "usd",
+                customer: resv.stripecustomerid,
+            });
+        })
+        .then(function (charge) {
+                res.send("1");
+        },function (err) {
+            res.send(err);
+        })
+
+
+}
+
+
 function chargeCard(req,res) {
 
-    var token = req.body.stripeToken; // Using Express
-    var resvno = req.body.resvno;
-    var firstname = req.body.firstname;
-    var lastname = req.body.lastname;
-    var phone = req.body.phone;
-    var email = req.body.email;
-    var numberofguests = req.body.numberofguests;
+    var token = req.body.stripetoken;
+    var resv = req.body;
 
-
-
-
-
-    var charge = stripe.charges.create({
-        amount: 100,
-        currency: "usd",
-        description: "Example charge",
+    // Create a Customer:
+    stripe.customers.create({
         source: token,
-    }, function(err, charge) {
-        var show = charge;
-        var showerr = err;
-        res.redirect('/checkin/#!/thankyou');
-        // asynchronously called
+    }).then(function(customer) {
+        resv.stripecustomerid = customer.id;
+        return stripe.charges.create({
+            amount: 100,
+            currency: "usd",
+            description: "Room charge",
+            capture: false,
+            customer: customer.id,
+        });
+    }).then(function(charge) {
+            resv.status = "CHECKEDIN";
+            resv.depositeid = charge.id;
+            reservationModel
+                .updateReservation(resv._id,resv)
+                .then(function (resv) {
+                    res.send("1");
+                }, function (err) {
+                    res.send("0");
+                });
+
+    },function (err) {
+        res.send(err.message);
     });
+
+// YOUR CODE (LATER): When it's time to charge the customer again, retrieve the customer ID.
+//     stripe.charges.create({
+//         amount: 1500, // $15.00 this time
+//         currency: "usd",
+//         customer: customerId,
+//     });
+
 }
 
 
@@ -109,3 +147,4 @@ function deleteReservation(req, res) {
             res.send("0");
         });
 }
+

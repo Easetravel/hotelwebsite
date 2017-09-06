@@ -3,12 +3,15 @@
         .module("Checkin")
         .controller("adminEditController", adminEditController)
 
-    function adminEditController($routeParams,$location, reservationService) {
+    function adminEditController($routeParams,$location, reservationService, $route) {
         //declare controller
         var model = this;
         model.resvNo = $routeParams["resvno"];
+        model.chargeAmount = 0;
         //declare function
         model.updateReservation = updateReservation;
+        model.chargeMoney = chargeMoney;
+
         //  model.createReservation = createReservation;
 
         //initial function
@@ -27,6 +30,12 @@
                     model.formatcheckindate = new Date(model.resv.checkindate);
                     model.formatcheckoutdate = new Date(model.resv.checkoutdate);
                     model.resvId = model.resv._id;
+                    if(model.resv.stripecustomerid != null){
+                        model.showcharge = true;
+                    }else{
+                        model.showcharge = false;
+                    }
+
                 });
         }
 
@@ -38,9 +47,15 @@
                 });
         }
 
-
-
-
+        function chargeMoney() {
+            if(model.chargeAmount != 0){
+            reservationService.chargeMoney(model.resvNo,model.chargeAmount)
+                .then(function (response) {
+                    if(response.data == "1")
+                        alert("charge success");
+                });
+            }
+        }
 
     }
 
